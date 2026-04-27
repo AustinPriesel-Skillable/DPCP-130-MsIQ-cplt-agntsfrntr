@@ -1,4 +1,4 @@
-# Elevate Zava Retail intelligence with a Researcher Agent for smarter insights and reporting
+# Lab 2 - Elevate Zava Retail intelligence with a Researcher Agent for smarter insights and reporting
 
 **Estimated duration:** 40 minutes
 
