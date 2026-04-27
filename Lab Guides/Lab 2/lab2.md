@@ -11,16 +11,16 @@ documents, emails, chats, and Teams messages, helping you create
 summaries, reports, and follow-ups on a given project or topic. After
 completing this lab, you will be able to: 
 
-    - Locate and launch the **Researcher Agent** in Microsoft 365. 
+- Locate and launch the **Researcher Agent** in Microsoft 365. 
 
-    - Use prompts to gather recent discussions, documents, and emails. 
+- Use prompts to gather recent discussions, documents, and emails. 
 
-    - Interact with follow-up questions to refine results. 
+- Interact with follow-up questions to refine results. 
 
-    - Generate summaries, reports, or action items related to a topic. 
+- Generate summaries, reports, or action items related to a topic. 
 
-    - Explore advanced prompt use cases such as progress updates, meeting
-    prep, and document discovery. 
+- Explore advanced prompt use cases such as progress updates, meeting
+prep, and document discovery. 
 
 ## Scenario
 
@@ -36,13 +36,10 @@ a unified view.
 
 At Zava Retail, all the critical information is scattered across various
 communication channels. The critical information includes:
-
-    - Emails (vendor discussions, escalations)
-    - Teams chats (campaign planning)
-
-    - Documents (strategy decks, reports)
-
-    - Meeting notes
+- Emails (vendor discussions, escalations)
+- Teams chats (campaign planning)
+- Documents (strategy decks, reports)
+- Meeting notes
 
 Due to the information fragmentation, there is no single source of truth
 and leadership team cannot see the project status, risks, and
@@ -114,7 +111,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
 Patricia wants a complete overview of campaign progress for Zava Retail.
 
-1.  Before interacting with agent first we will send some demo campaign emails to the current lab user with your emial. So the Researcher Agent can access relevant data and produce meaningful insights and summaries. You can get demo campaign email from C:\Labfiles\Lab2-Lab files.
+1.  Before interacting with agent first we will send some demo campaign emails to the current lab user with your emial. So the Researcher Agent can access relevant data and produce meaningful insights and summaries. You can get demo campaign email from **C:\Labfiles\Lab2-Lab** files.
     ![](./media/image71.png) 
 
 2. Go to the Researcher agent, paste the following prompt in the prompt
@@ -153,18 +150,18 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
 
     The agent searches across Outlook, Teams, and SharePoint documents to
     retrieve the following:
-
-        - Aggregates insights
-
-        - Builds structured summary
-
-        - Campaign progress
-
-        - Vendor updates
-
-        - Risks
-
-        - Strategic insights
+    
+    - Aggregates insights
+    
+    - Builds structured summary
+    
+    - Campaign progress
+    
+    - Vendor updates
+    
+    - Risks
+    
+    - Strategic insights
 
 5. Review the output:
 
