@@ -1,4 +1,4 @@
-# Lab 4- Build an IT Asset Tracker to Automate Business Processes Using Microsoft 365 Copilot App Builder
+# Lab 4 - Automate Zava Retail IT asset management with Microsoft 365 Copilot App Builder
 
 **Estimated Duration:** 40 minutes
 
