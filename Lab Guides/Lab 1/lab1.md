@@ -201,7 +201,7 @@ Copilot to automate email triage.
     - Supplier delays affecting inventory  
     
     Send the structured summary to myself on Microsoft Teams email id -
-    <User1-60850421@LODSPRODMCA.onmicrosoft.com>.
+    User1-60850421@LODSPRODMCA.onmicrosoft.com.
     ```
 
     > **Note:** The email id will be changed to the username you are
@@ -380,7 +380,7 @@ follow-ups.
     “When a new email arrives in Outlook with "Urgent" in the email
     subject:  
     Send a Microsoft Teams reminder to
-    “<User1-60891280@lodsprodmca.onmicrosoft.com>” to respond to the email
+    “User1-60891280@lodsprodmca.onmicrosoft.com” to respond to the email
     instantly.  
     If the email is still not responded in 2 hours:  
     Send an escalation notification to Microsoft Teams.
