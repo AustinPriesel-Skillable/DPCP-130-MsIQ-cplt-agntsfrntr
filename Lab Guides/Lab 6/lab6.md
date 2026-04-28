@@ -86,17 +86,20 @@ intelligent and trustworthy.
 With your SharePoint site open and your frontline scenario selected, you
 will now build the agent.  
   
-1. Log in to Microsoft Copilot with your Microsoft credentials.  
-    ![](./media/image1.png)
+1. Log in to Microsoft Copilot with your Microsoft credentials. 
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+   ![](./media/image1.png)
+   ![](./media/image102.png)
 
-2. In the **left navigation**, select **New Agent.**
+3. In the **left navigation**, select **New Agent.**
 
     ![](./media/image8.png)
 
-3. Select **Create New Agent** from the top left corner.  
+4. Select **Create New Agent** from the top left corner.  
     ![](./media/image9.png)
 
-4. When the **Create new agent panel** opens, paste the following
+5. When the **Create new agent panel** opens, paste the following
 information in the respective fields:
 
     - **Agent Name**: +++Project Knowledge Assistant+++
@@ -149,25 +152,29 @@ responds.
 ### Task 1: Open Your Agent in Copilot Studio
 
 1.  In your browser, navigate directly to
-    +++[https://copilotstudio.microsoft.com.]+++(https://copilotstudio.microsoft.com/)
-    Sign in with your M365 lab credentials.  
-    ![](./media/image1.png)
+    +++https://copilotstudio.microsoft.com/+++
+    Sign in with your M365 lab credentials.
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-2.  The Knowledge Assistant Agent opens. Click on ellipsis icon and
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++ 
+    ![](./media/image1.png)
+    ![](./media/image102.png)
+
+3.  The Knowledge Assistant Agent opens. Click on ellipsis icon and
     Select **Edit.**  
     ![](./media/image16.png)
 
-3.  Select the ellipsis icon on the upper left corner. Select **Copy to
+4.  Select the ellipsis icon on the upper left corner. Select **Copy to
     Copilot studio**.  
     ![](./media/image17.png)
 
-4.  A confirmation prompt window will pop-up. Select **Get Started.**  
+5.  A confirmation prompt window will pop-up. Select **Get Started.**  
     ![](./media/image18.png)
 
-5.  Select your **Environment** and Click **Continue**.  
+6.  Select your **Environment** and Click **Continue**.  
     ![](./media/image19.png)
 
-6.  You will be redirected to the Copilot Studio page. Here you can edit
+7.  You will be redirected to the Copilot Studio page. Here you can edit
     the instructions, and paste the below given instructions:  
 
     ```
@@ -183,10 +190,10 @@ responds.
 
     ![](./media/image20.png)
 
-7.  Click **Create**.  
+8.  Click **Create**.  
     ![](./media/image21.png)
 
-8.  After reviewing your agent, Click **Publish**.  
+9.  After reviewing your agent, Click **Publish**.  
     ![](./media/image22.png)
 
 ### Task 2: Add a Topic: Out-of-Scope Redirect
