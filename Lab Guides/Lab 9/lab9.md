@@ -112,7 +112,7 @@ AI Agent Service and how it integrates with various AI models and tools.
 Microsoft Foundry is your launchpad for building AI agents. In this
 task, you’ll log in to Microsoft Foundry with your login credentials.
 
-1.  Open the browser and navigate to +++ **Sign in** using your
+1.  Open the browser and navigate to +++https://ai.azure.com+++ **Sign in** using your
     credentials (**Username** and **TAP**) from the **Resources** tab.
 
     ![](./media/image1.png)
@@ -149,12 +149,11 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     agent's identity and behavior to match a real-world scenario: an
     internal HR Agent at Zava retail.
 
-8.  In your agent's Setup panel, Name your agent as +++Zava Retail HR
+8.  In your agent's Setup panel, Name your agent as +++Contoso HR
     Agent+++ and update the Instructions as the following:
 
     ```
-    You are Zava Retail HR Agent, an internal assistant for Contoso
-    Electronics. Your role is to help employees find accurate,
+    You are Contoso HR Agent, an internal assistant for Zava Retail. Your role is to help employees find accurate,
     policy-aligned answers to questions related to:
 
     - Job role descriptions and responsibilities
@@ -188,7 +187,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image7.png)
+    incorrect.](./media/image700.png)
 
 9. In the Knowledge section, select **+ Add** and select **Files**,
     then **Select local files**.
