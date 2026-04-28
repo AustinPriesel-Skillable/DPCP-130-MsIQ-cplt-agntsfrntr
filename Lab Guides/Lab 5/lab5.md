@@ -209,30 +209,33 @@ of the operational activities and get the key operations related queries
 of Zava Retail on Microsoft Teams for better visibility.
 
 1.  Navigate to Microsoft Teams
-    +++[https://teams.cloud.microsoft.com]+++(https://teams.cloud.microsoft.com+++/) and
+    +++https://teams.cloud.microsoft.com+++and
     sign in with your credentials.
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
 
     ![](./media/image2.png)
 
-2.  Open Microsoft Teams. Select **Copilot** icon from the left
+3.  Open Microsoft Teams. Select **Copilot** icon from the left
     navigation pane.
 
     ![](./media/image13.png)
 
-3.  Go to **Expand Navigation** icon to open the menu.
+4.  Go to **Expand Navigation** icon to open the menu.
     Select **Frontline Operations Agent** to open and access the agent.
 
     ![](./media/image14.png)
 
-4.  Now, Patricia can use the agent directly inside Teams. **Frontline
+5.  Now, Patricia can use the agent directly inside Teams. **Frontline
     Operations Agent** can be accessed under Microsoft Teams.
 
     ![](./media/image15.png)
-5. Before interacting with Researcher agent we have to first provide some demo campaign emails, so the Researcher Agent can access relevant data and produce meaningful insights and summaries. Hence naivagte to C:\Labfiles\Lab3-Lab to get the demo campaign emails. You can send these emails to the current user using your email.
+6. Before interacting with Researcher agent we have to first provide some demo campaign emails, so the Researcher Agent can access relevant data and produce meaningful insights and summaries. Hence naivagte to C:\Labfiles\Lab3-Lab to get the demo campaign emails. You can send these emails to the current user using your email.
 
-6.  Now navigate back to the Researcher agent, paste the following prompt in the prompt
+7.  Now navigate back to the Researcher agent, paste the following prompt in the prompt
     field, and then click on the **Execute** button. 
     ```
     Help me gather and summarize all recent discussions, documents, and
@@ -253,14 +256,14 @@ of Zava Retail on Microsoft Teams for better visibility.
 
     ![](./media/image16.png)
 
-7.  Wait for the **Researcher Agent** to gather and summarize the data
+8.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
     clarifying questions. Select the report length as “Short” and select
     “Go ahead with your best judgement” and select **Execute** button.
 
     ![](./media/image17.png)
 
-8.  Review the Researcher agent’s response: 
+9.  Review the Researcher agent’s response: 
 
     The agent searches across Outlook, Teams, and SharePoint documents to
     retrieve the following:
