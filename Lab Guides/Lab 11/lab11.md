@@ -501,7 +501,7 @@ search. You will vectorize the uploaded data in this exercise.
 1.  From the Azure portal, go to the AI Search service resource that
     starts with **documentstore**. Select **Import data**.
 
-    ![](./media/image49.png)
+    ![](./media/image149.png)
 
 2.  Select the **Azure Blob Storage** option.
 
@@ -556,7 +556,7 @@ search. You will vectorize the uploaded data in this exercise.
 8.  Click on **Close** in the success dialog box.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image57.png)
+    incorrect.](./media/image157.png)
 
 **Exercise 5: Create a retail assistant agent**
 
