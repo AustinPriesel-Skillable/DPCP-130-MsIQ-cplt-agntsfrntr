@@ -56,17 +56,22 @@ first version will be.
 
 1.  In your browser, navigate to +++<https://m365.cloud.microsoft/>+++
     Sign in with your credentials.
-    
-    ![](./media/image1.png)
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-2.  On the left-hand navigation pane, click **All Agents\>App Builder
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+    
+    ![](./media/image100.png)
+    ![](./media/image101.png)
+    ![](./media/image102.png)
+
+3.  On the left-hand navigation pane, click **All Agents\>App Builder
     (Frontier)**.  
     ![](./media/image2.png)
 
-3.  Select **Add** to add this agent to your environment.  
+4.  Select **Add** to add this agent to your environment.  
     ![](./media/image3.png)
 
-4.  The App Builder interface will open with a conversational input
+5.  The App Builder interface will open with a conversational input
     field — this is where you describe your app.
 
 ### Task 2: Describe Your App in Natural Language
