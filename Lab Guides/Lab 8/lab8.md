@@ -44,7 +44,7 @@ consistent and familiar user experience.
 foundational model of Microsoft 365 Copilot, as well as the same
 orchestrator. The agent provides also custom knowledge and grounding
 data, and custom skills as actions, triggers, and workflows.. The user
-experience is available in Microsoft 365 Copilot.](./media/image1.png)
+experience is available in Microsoft 365 Copilot.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image1.png)
 
 **Significance of TypeSpec for Declarative Agents**
 
@@ -95,22 +95,22 @@ Code.
 1.  Open **Visual Studio Code** from the VM. Select **Extensions** from
     the left menu.
 
-    ![](./media/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image2.png)
 
 2.  Search for and select +++Microsoft 365 Agents Toolkit+++ and click
     on **Install**.
 
-    ![](./media/image3.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image3.png)
 
 3.  Ensure that the toolkit is installed.
 
-    ![](./media/image4.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image4.png)
 
 4.  Create a new folder named +++ServiceAgent+++ in your Desktop.
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image5.png)
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image6.png)
 
 ## Exercise 2: Build the base agent with TypeSpec using Microsoft 365 Agents Toolkit
 
@@ -126,70 +126,69 @@ interacts with repairs data via an existing API service to help users
 manage car repair records.
 
 1.  Locate the **Microsoft 365 Agents Toolkit
-    icon** ![m365atk-icon](./media/image7.png) from the VS Code menu on
-    the left and select it. An activity bar will be open. Select
-    the **Create a New Agent/App** button in the activity bar which will
-    open the palette with a list of app templates available on Microsoft
-    365 Agents Toolkit.
+    icon** from the VS Code menu on the left and select it. An activity bar will be open. Select the **Create a New Agent/App** button in the activity bar which will open the palette with a list of app templates available on Microsoft 365 Agents Toolkit.
+    
+    ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image7.png)
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image8.png)
 
-2.  Choose **Declarative Agent** from the list of templates.
+3.  Choose **Declarative Agent** from the list of templates.
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image9.png)
 
-3.  Next, select **Start with TypeSpec for Microsoft 365 Copilot** to
+4.  Next, select **Start with TypeSpec for Microsoft 365 Copilot** to
     define your agent using TypeSpec.
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image10.png)
 
-4.  Next, select **Browse** and then select the
+5.  Next, select **Browse** and then select the
     folder **ServiceAgent** from the Desktop. This is the location,
     where you want the agents toolkit to scaffold the agent project.
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image11.png)
 
-    ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image12.png)
 
-5.  Next, enter the application name as +++RepairServiceAgent+++ and
+6.  Next, enter the application name as +++RepairServiceAgent+++ and
     select **Enter** to complete the process. You will get a new VS Code
     window with the agent project preloaded.
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image13.png)
 
-6.  Select **Yes, I trust the authors** option in the confirmation
+7.  Select **Yes, I trust the authors** option in the confirmation
     dialog.
 
-7.  You'll need to sign into the **Microsoft 365 Agents Toolkit** in
+8.  You'll need to sign into the **Microsoft 365 Agents Toolkit** in
     order to upload and test your agent from within it.
 
-8.  Within the project window, select the **Microsoft 365 Agents Toolkit
-    icon** ![m365atk-icon](./media/image7.png) again from the left side
-    menu. This will open the Agent Toolkit’s activity bar with sections
+9.  Within the project window, select the **Microsoft 365 Agents Toolkit
+    icon** again from the left side menu. This will open the Agent Toolkit’s activity bar with sections
     like Accounts, Environment, Development etc.
 
-9.  Under **Accounts** section select **Sign in to Microsoft 365**.
+    ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image7.png)
 
-    ![](./media/image14.png)
+11.  Under **Accounts** section select **Sign in to Microsoft 365**.
 
-10. This will open a dialog from the editor to sign in or create a
+        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image14.png)
+
+11. This will open a dialog from the editor to sign in or create a
     Microsoft 365 developer sandbox or Cancel. Select **Sign in**.
 
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image15.png)
 
-11. Login with your **user name** and **TAP Token** from
+12. Login with your **user name** and **TAP Token** from
     the **Resources** tab.
 
-    ![](./media/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image16.png)
 
-    ![](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image17.png)
 
-12. Once signed in, **close** the browser and go back to the project
+13. Once signed in, **close** the browser and go back to the project
     window.
 
-    ![](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image18.png)
 
-    \[!Note\] **Note:** If there is a message on Custom App Upload Disabled,
+    >[!Note] If there is a message on Custom App Upload Disabled,
     safely ignore it.
 
 ### Task 2: Define your agent
@@ -217,9 +216,10 @@ iterate quickly without switching to external tools.
     folder called +++**http+++**. Create a new file
     named +++repairs-api.http+++ inside the http folder.
 
-    ![](./media/image19.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image19.png)
 
 2.  Copy paste below content into the file.
+   
     ```
     @base_url = https://repairshub.azurewebsites.net
 
@@ -261,15 +261,15 @@ iterate quickly without switching to external tools.
     ```
 
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image20.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image20.png)
 
-3.  To run each request, hover over each request line (e.g., GET
+4.  To run each request, hover over each request line (e.g., GET
     {{base_url}}/repairs) and click **Send Request** to see the
     response. Observe the structure of requests and responses and use
     the response data to understand how your agent will interact with
     the API.
 
-    ![](./media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image21.png)
 
     **Repairs API Overview**
 
@@ -309,7 +309,7 @@ Additionally, there's a **prompts** folder housing
 the **instructions.tsp** file, which allows you to define detailed
 behavioral instructions and guidance for your agent.
 
-![](./media/image22.png)
+![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image22.png)
 
 **Update the Agent Metadata and Instructions**
 
@@ -321,13 +321,13 @@ behavioral instructions and guidance for your agent.
 
     - Basic **instructions** 2️⃣
 
-    - Placeholder code for **actions** and **capabilities** (commented out)
-    3️⃣
+    - Placeholder code for **actions** and **capabilities** (commented out) 3️⃣
 
-    ![](./media/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image23.png)
 
 2. Begin by defining your agent for the repair scenario. Replace
 the **@agent** metadata with below code snippet.
+
     ```
     @agent(
     "RepairServiceAgent",
@@ -335,9 +335,9 @@ the **@agent** metadata with below code snippet.
     )
     ```
 
-    ![](./media/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image24.png)
 
-3. Next, configure a conversation starter, the initial prompt that
+4. Next, configure a conversation starter, the initial prompt that
     begins user-agent interaction. Uncomment the default template section
     and update the title and text fields to match the agent scenario.
 
@@ -355,10 +355,11 @@ the **@agent** metadata with below code snippet.
     need to define the corresponding action. Proceed to the next step to do
     so.
 
-    ![](./media/image25.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image25.png)
 
-4. Next, go to **prompts/instructions.tsp** and update the instructions.
+5. Next, go to **prompts/instructions.tsp** and update the instructions.
 Replace the entire code block in the file with below code:
+
     ```
     namespace Prompts {
     const INSTRUCTIONS = """
@@ -369,19 +370,19 @@ Replace the entire code block in the file with below code:
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image26.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image26.png)
 
-5. Save the changes to both files using CTRL+S.
+7. Save the changes to both files using CTRL+S.
 
 ### Task 3: Update the action for the agent
 
 1. Next, you will define the action for your agent by opening
     the **actions/github.tsp** file. Rename this file
-    to +++**actions.tsp+++**.
+    to +++actions.tsp+++.
 
-    ![](./media/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image27.png)
     
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image28.png)
 
     You'll return to the **main.tsp** file later to complete the agent
     metadata with the action reference, but first, the action itself must be
@@ -418,7 +419,7 @@ defined with the snippet below.
     const SERVER_URL = "https://repairshub.azurewebsites.net";
     ```
 
-    ![](./media/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image29.png)
 
 3.  Next, replace the operation in the template code from searchIssues
     to **listRepairs** which is a repair operation to get the list
@@ -426,6 +427,7 @@ defined with the snippet below.
     the SERVER_URL definition and ending *before* the final closing
     braces with the snippet below. Be sure to leave the closing braces
     intact. (Line numbers should be 27 to 37)
+    
     ```
     /**
     * List repairs from the API 
@@ -437,20 +439,23 @@ defined with the snippet below.
     ```
 
     ![A screen shot of a computer program AI-generated content may be
-    incorrect.](./media/image30.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image30.png)
 
-4.  Now go back to **main.tsp** file and verify the import statement for
+5.  Now go back to **main.tsp** file and verify the import statement for
     actions. If it still references *./actions/github.tsp*,
     replace *import "./actions/github.tsp";* with the statement below:
+    
     ```
     import "./actions/actions.tsp";
     ```
+    
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image31.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image31.png)
 
-5.  Next, in the same file, add the action you just defined into the
+7.  Next, in the same file, add the action you just defined into the
 agent. After the conversation starters replace the entire
 "RepairServiceAgent" namespace with below snippet:
+
     ```
     namespace RepairServiceAgent{  
 
@@ -460,7 +465,7 @@ agent. After the conversation starters replace the entire
     ```
 
     ![A screen shot of a computer AI-generated content may be
-    incorrect.](./media/image32.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image32.png)
 
 ### Task 4: (Read only) Understand the decorators
 
@@ -497,7 +502,7 @@ created.
 1.  Select the **Agents Toolkit extension's** icon, to open the activity
     bar from within your project.
 
-    ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image33.png)
 
 2.  In the activity bar of the Agents Toolkit
     under **LifeCycle** select **Provision**. This will build the app
@@ -505,35 +510,35 @@ created.
     side load the app into the catalog only for you to test.
 
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image34.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image34.png)
 
 3.  Open your web browser and navigate to
-    +++<https://m365.cloud.microsoft/chat+++> to open Copilot app and
+    +++https://m365.cloud.microsoft/chat+++ to open Copilot app and
     click on **Expand Navigation**.
 
-    ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image35.png)
 
 4.  Select the **RepairServiceAgent** from the list
     of **Agents** available in the Microsoft 365 Copilot interface. This
     will take a while, and you will be able to see a toaster message
     showing the progress of the task to provision.
 
-    ![](./media/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image36.png)
 
 5.  Select the conversation starter **List repairs** and send the
     prompt.
 
-    ![](./media/image37.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image37.png)
 
 6.  If there is a popup that asks for the connection to the API,
     select **Always allow**.
 
-    ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image38.png)
 
 7.  This initiates the conversation with your agent and you can see the
     response from the agent with the list of repairs.
 
-    ![](./media/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image39.png)
 
 ## Exercise 3: Enhance Agent capabilities
 
@@ -551,6 +556,7 @@ like **createRepair**, **updateRepair** and **deleteRepair.**
   after **listRepairs** operation to add new
   operations **createRepair**, **updateRepair** and **deleteRepair**.
   Here you will also define the **Repair** item data model.
+
   ```
   /**
    * Create a new repair using the API. 
@@ -620,29 +626,32 @@ like **createRepair**, **updateRepair** and **deleteRepair.**
   }
   ```
 
-![](./media/image40.png)
+![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image40.png)
 
 2.  Now, open **main.tsp** file and add these new operations into the
     agent's action. **Paste** the below snippet after the line **op
     listRepairs is global.RepairsAPI.listRepairs;** inside
     the **RepairServiceActions** namespace.
+    
     ```
     op createRepair is global.RepairsAPI.createRepair;
     op updateRepair is global.RepairsAPI.updateRepair;
     op deleteRepair is global.RepairsAPI.deleteRepair;
     ```
 
-    ![](./media/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image41.png)
 
 2.  Also add a new conversation starter for creating a new repair item
     just after the first conversation start definition.
+    
     ```
     @conversationStarter(#{
         title: "Create repair",
         text: "Create a new repair titled \"[TO_REPLACE]\" and assign it to me"
     })
     ```
-    ![](./media/image42.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image42.png)
 
 ### Task 2: Add adaptive card to function reference
 
@@ -655,6 +664,7 @@ an adaptive card for the repair item.
     named +++repair.json+++ and paste the provided code snippet. This
     will define a new adaptive card for the repair object. Ignore the
     default template card that is already present in this folder.
+    
      ```
     {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -704,40 +714,44 @@ an adaptive card for the repair item.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image43.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image43.png)
 
     ![A screen shot of a computer program
-    AI-generated content may be incorrect.](./media/image44.png)
+    AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image44.png)
 
-2.  Next, go back to **actions.tsp** file and locate the listRepairs
+3.  Next, go back to **actions.tsp** file and locate the listRepairs
     operation. Just above the operation definition **@get op
     listRepairs(@query assignedTo?: string): string;**, paste the card
     definition using below snippet.
+    
     ```
     @card(#{  dataPath: "$", file: "adaptiveCards/repair.json",    properties: #{ title: "$.title", url: "$.image" } })
     ```
 
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image45.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image45.png)
 
     The above card response will be sent by the agent when you ask about a
     repair item or when agent brings a list of items as its reference.
 
-3.  Continue to add card response for the **createRepair** operation to
+5.  Continue to add card response for the **createRepair** operation to
     show what the agent created after the POST operation. Copy paste
     below snippet just above the code **@post op createRepair(@body
     repair: Repair): Repair;**
+    
     ```
 
     @card(#{  dataPath: "$", file: "adaptiveCards/repair.json",    properties: #{ title: "$.title", url: "$.image" } })
     ```
-    ![](./media/image46.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image46.png)
 
 ### Task 3: Update agent instruction for new operations
 
 1. In the **prompts/instructions.tsp** file, update instructions definition
 to have additional directives for the agent. Replace
     the **INSTRUCTIONS** constant with below code:
+   
     ```
     const INSTRUCTIONS ="""  
         ## Purpose
@@ -751,7 +765,7 @@ to have additional directives for the agent. Replace
     """;
     ```
 
-    ![](./media/image47.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image47.png)
 
 ### Task 4: Provision and Test the Agent
 
@@ -766,20 +780,20 @@ analyst to test.
     newly updated agent for testing.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image48.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image48.png)
 
 3.  Ensure that the provisioning gets succeeded.
 
-    ![](./media/image49.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image49.png)
 
     \[!Alert\] **Important:** There are couple of known issues where the
     Provision action in Agents Toolkit may fail with the errors shown below.
     If this happens, simply retry the provisioning process until it
     succeeds.
 
-    ![](./media/image50.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image50.png)
 
-    ![](./media/image51.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image51.png)
 
 4.  Go back to the open **browser** session and do a **refresh**.
 
@@ -788,31 +802,31 @@ analyst to test.
     title, then send it to the chat to initiate the interaction. For
     example:
 
-    ![](./media/image52.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image52.png)
 
 6.  Replace the **“\[TO REPLACE\]”** with +++rear camera issue+++ and
     assign it to me.
 
-    ![](./media/image53.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image53.png)
 
 7.  The confirmation dialog if you notice has more metadata that what
     you sent, thanks to the new instructions.
 
-    ![](./media/image54.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image54.png)
 
 8.  Proceed to add the item by **confirming** the dialog.
 
-    ![](./media/image55.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image55.png)
 
 9.  The agent responds with the **created item**.
 
-    ![](./media/image42.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image42.png)
 
 10. Next, you will test the new analytical capability of your agent.
     Open a new chat by selecting the **New chat** button on the top
     right corner of your agent.
 
-    ![](./media/image56.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image56.png)
 
 11. Next, copy the prompt below and paste it to the message box and hit
     enter to send it.
@@ -821,19 +835,19 @@ analyst to test.
     Routine Maintenance, Critical, and Low Priority. Then, generate a chart
     displaying the percentage representation of each category.+++
 
-    ![](./media/image57.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image57.png)
 
 12. You should get some response similar to below screen. It may vary
     sometimes.
 
-    ![](./media/image58.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image58.png)
 
 13. Open the link
-    +++[https://dev.teams.microsoft.com+++](https://dev.teams.microsoft.com+++/).
+    +++https://dev.teams.microsoft.com+++/
 
 14. Select **Apps** from the left pane.
 
-    ![](./media/image59.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image59.png)
 
 15. You will find the **RepairServiceAgent** under Apps.
 
@@ -842,7 +856,7 @@ analyst to test.
     will be creating another agent in the next lab, this step needs to
     be done.
 
-    ![](./media/image60.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image60.png)
 
 ## Summary:
 
