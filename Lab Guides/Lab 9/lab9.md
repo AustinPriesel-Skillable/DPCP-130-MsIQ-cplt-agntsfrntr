@@ -187,7 +187,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image200.png)
+    incorrect.](./media/image 200.png)
 
 9. In the Knowledge section, select **+ Add** and select **Files**,
     then **Select local files**.
@@ -344,7 +344,7 @@ Copilot, and other preferred channels.
 
 14. The application now starts.
 
-    ![](./media/image31.png)
+    ![](./media/image3001.png)
 
 15. Wait until the agent's message "Hello and Welcome!" (If you dont get
     a welcome message, refresh the browser once), then type anything
