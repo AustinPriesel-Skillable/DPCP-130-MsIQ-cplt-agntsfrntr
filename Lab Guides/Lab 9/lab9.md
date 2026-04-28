@@ -187,7 +187,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image 200.png)
+    incorrect.](./media/image2001.png)
 
 9. In the Knowledge section, select **+ Add** and select **Files**,
     then **Select local files**.
