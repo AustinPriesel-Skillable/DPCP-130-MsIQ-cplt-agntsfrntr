@@ -149,11 +149,11 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     agent's identity and behavior to match a real-world scenario: an
     internal HR Agent at Zava retail.
 
-8.  In your agent's Setup panel, Name your agent as +++Contoso HR
+8.  In your agent's Setup panel, Name your agent as +++Zava HR
     Agent+++ and update the Instructions as the following:
 
     ```
-    You are Contoso HR Agent, an internal assistant for Zava Retail. Your role is to help employees find accurate,
+    You are Zava HR Agent, an internal assistant for Zava Retail. Your role is to help employees find accurate,
     policy-aligned answers to questions related to:
 
     - Job role descriptions and responsibilities
@@ -187,13 +187,13 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image700.png)
+    incorrect.](./media/image200.png)
 
 9. In the Knowledge section, select **+ Add** and select **Files**,
     then **Select local files**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image8.png)
+    incorrect.](./media/image201.png)
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image9.png)
@@ -218,13 +218,13 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     relevant information efficiently.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image13.png)
+    incorrect.](./media/image203.png)
 
 13. Save the **Agent id** to a notepad, that'll be required in the next
     exercises. You can find your Agent id in the agent’s details.
 
     ![A screenshot of a computer screen AI-generated content may be
-    incorrect.](./media/image14.png)
+    incorrect.](./media/image204.png)
 
 14. Also, go to the **Overview** page and save the value of **Azure AI
     Foundry project endpoint** to the notepad.
@@ -263,10 +263,10 @@ Copilot, and other preferred channels.
     ![A screenshot of a computer project AI-generated content may be
     incorrect.](./media/image19.png)
 
-4.  Provide a name for your agent as +++**ContosoHRAgent**+++ and
+4.  Provide a name for your agent as +++**ZavaHRAgent**+++ and
     select **Create**.
 
-    ![](./media/image20.png)
+    ![](./media/image205.png)
 
 5.  Scroll down in the list of templates, select **Echo Bot** and
     select **Create**.
@@ -277,11 +277,11 @@ Copilot, and other preferred channels.
 6.  Select **Allow access** in the pop up.
 
     ![A screenshot of a computer error AI-generated content may be
-    incorrect.](./media/image22.png)
+    incorrect.](./media/image206.png)
 
 7.  When the project template is scaffolded, go to Solution Explorer on
     the right-side panel and explore the agent template. Expand
-    the **ContosoHRAgent** project.
+    the **ZavaHRAgent** project.
 
     - Open **Program.cs**, this code configures and runs the web server
       that hosts your agent. It sets up required services like
@@ -289,7 +289,7 @@ Copilot, and other preferred channels.
       injects memory-based state handling.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image23.png)
+    incorrect.](./media/image207.png)
 
     - Open **Bot \> EchoBot.cs** and observe that this sample sets up a
     basic AI agent using the **Microsoft.Agents.Builder**. It sends a
@@ -297,7 +297,7 @@ Copilot, and other preferred channels.
     and echoes it back with a running message count.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image24.png)
+    incorrect.](./media/image208.png)
 
 8.  You've started with an **Echo Bot**, a simple bot that repeats back
     any message a user sends. It’s a useful way to verify your setup and
@@ -340,7 +340,7 @@ Copilot, and other preferred channels.
 13. Select **Allow access** in the security alert.
 
     ![A screenshot of a computer error AI-generated content may be
-    incorrect.](./media/image30.png)
+    incorrect.](./media/image209.png)
 
 14. The application now starts.
 
@@ -378,10 +378,10 @@ Teams or Copilot Chat.
 1.  Add **Semantic Kernel Nuget** Package. This package will provide
     support for Azure AI integration.
 
-2.  Right-click to **ContosoHRAgent solution** and select **Manage Nuget
+2.  Right-click to **ZavaHRAgent solution** and select **Manage Nuget
     Packages for Solution**.
 
-    ![](./media/image35.png)
+    ![](./media/image305.png)
 
 3.  Select **Browse** tab and search
     for +++Microsoft.SemanticKernel.Agents.AzureAI+++.
@@ -390,11 +390,11 @@ Teams or Copilot Chat.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image36.png)
 
-4.  Select the **package**, select **Contoso** under Project and
+4.  Select the **package**, select **Zava** under Project and
     select **Install**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image37.png)
+    incorrect.](./media/image307.png)
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image38.png)
@@ -402,23 +402,23 @@ Teams or Copilot Chat.
 5.  Select **Apply** in the Preview Changes dialog.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image39.png)
+    incorrect.](./media/image310.png)
 
 6.  Select **I Accept** in the License Acceptance dialog.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image40.png)
+    incorrect.](./media/image311.png)
 
 7.  The package is now installed.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image41.png)
+    incorrect.](./media/image313.png)
 
 8.  Select **Program.cs** and enter +++builder.Services.AddKernel();+++
     above the line, **var app = builder.Build()** (Line 31).
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image42.png)
+    incorrect.](./media/image314.png)
 
     This registers the Semantic Kernel, a core component that allows your
     agent to interact with generative AI models.
@@ -427,7 +427,7 @@ Teams or Copilot Chat.
     Class**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image43.png)
+    incorrect.](./media/image315.png)
 
 10. Enter the class name as +++**FileReference.cs**+++ and
     hit **Enter** to create the class.
@@ -441,7 +441,7 @@ Teams or Copilot Chat.
     ```
     using Microsoft.Agents.Core.Models;
 
-    namespace ContosoHRAgent
+    namespace ZavaHRAgent
     {
         public class FileReference(string fileId, string fileName, string quote, Citation citation)
         {
@@ -454,16 +454,16 @@ Teams or Copilot Chat.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image45.png)
+    incorrect.](./media/image316.png)
 
-12. Right-click to **ContosoHRAgent** project and select **Add \>
+12. Right-click to **ZavaHRAgent** project and select **Add \>
     Class** and define your class name
     as +++ConversationStateExtensions.cs+++. Replace existing the code
     with following:
     ```
     using Microsoft.Agents.Builder.State;
 
-    namespace ContosoHRAgent
+    namespace ZavaHRAgent
     {
         public static class ConversationStateExtensions
         {
@@ -486,7 +486,7 @@ Teams or Copilot Chat.
 
     ```
 
-    ![](./media/image46.png)
+    ![](./media/image317.png)
 
     This class adds helper methods to manage and track the number of user
     messages—demonstrating how state is stored and modified during an
@@ -506,7 +506,7 @@ In this task, you’ll connect to the Microsoft Foundry agent by adding a
 client to fetch and invoke your Foundry-hosted model inside the
 EchoBot.cs.
 
-1.  In **ContosoHRAgent** project, open **Bot/EchoBot.cs** and add the
+1.  In **ZavaHRAgent** project, open **Bot/EchoBot.cs** and add the
     following lines inside the EchoBot public class.
     ```
     private readonly PersistentAgentsClient _projectClient;
@@ -514,9 +514,9 @@ EchoBot.cs.
     ```
 
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image47.png)
+    incorrect.](./media/image318.png)
 
-4.  Replace the existing **EchoBot constructor** with the following.
+2.  Replace the existing **EchoBot constructor** with the following.
     ```
     public EchoBot(AgentApplicationOptions options, IConfiguration configuration) : base(options)
     {
@@ -544,9 +544,9 @@ EchoBot.cs.
     }
     ```
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image48.png)
+    incorrect.](./media/image320.png)
 
-5. Replace **OnMessageAsync** method with the following.
+3. Replace **OnMessageAsync** method with the following.
     ```
     protected async Task OnMessageAsync(ITurnContext turnContext, ITurnState turnState, CancellationToken cancellationToken)
     {
@@ -602,21 +602,21 @@ EchoBot.cs.
 
 
 
-80. When pasting the above code excerpt, you might see a warning
+4. When pasting the above code excerpt, you might see a warning
     (SKEXP0110) because this feature is still in preview. You can safely
     suppress this warning for now by right-clicking on AzureAIAgent,
     selecting **Quick Actions and Refactorings \> Suppress or configure
     issues \> Configure SKEXP0110 Severity \> Silent**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image49.png)
+    incorrect.](./media/image321.png)
 
-81. The code will now look like this.
+5. The code will now look like this.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image50.png)
+    incorrect.](./media/image322.png)
 
-82. The ***OnMessageAsync*** method is the heart of your agent’s
+6. The ***OnMessageAsync*** method is the heart of your agent’s
     response logic. By replacing the default echo behavior, you’ve
     enabled your agent to send the user’s message to your Azure AI
     Foundry agent, stream the response back to the user in real time,
@@ -630,7 +630,7 @@ In this task, you will add your Foundry connection details to
 appsettings.json, these values connect your M365 agent to the correct
 Foundry project and agent.
 
-1.  In **ContosoHRAgent** project, open **appsettings.json** and add the
+1.  In **ZavaHRAgent** project, open **appsettings.json** and add the
     following lines at the bottom of the appsettings list (At line 40).
     ```
     ,
@@ -645,7 +645,7 @@ Foundry project and agent.
     you saved to the notepad at the end of Exercise 1.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image51.png)
+    incorrect.](./media/image323.png)
 
 2.  Final version of the **appsettings.json** will look like below.
 
@@ -739,7 +739,7 @@ In this task, you will test the created agent in Teams.
     Command Prompt**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image57.png)
+    incorrect.](./media/image324.png)
 
 8.  Execute the below command.
 
@@ -749,20 +749,20 @@ In this task, you will test the created agent in Teams.
     account** and login with your login credentials.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image58.png)
+    incorrect.](./media/image325.png)
 
     ![A computer screen with a white box and blue text AI-generated content
-    may be incorrect.](./media/image59.png)
+    may be incorrect.](./media/image326.png)
 
 9.  Once logged in, enter **1** to select the subscription.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image60.png)
+    incorrect.](./media/image327.png)
 
 10. Expand **Start** and select **Dev Tunnels \> Create a Tunnel**:
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image61.png)
+    incorrect.](./media/image329.png)
 
 11. Provide the below details and select **Ok**.
 
@@ -780,16 +780,16 @@ In this task, you will test the created agent in Teams.
     incorrect.](./media/image62.png)
 
     ![A screenshot of a computer program AI-generated content may be
-    incorrect.](./media/image63.png)
+    incorrect.](./media/image330.png)
 
 12. Right click to **M365Agent** project, select **Microsoft 365 Agents
     Toolkit \> Select Microsoft 365 Account**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image64.png)
+    incorrect.](./media/image334.png)
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image65.png)
+    incorrect.](./media/image335.png)
 
 13. Select your account and click on **Continue**.
 
@@ -800,7 +800,7 @@ In this task, you will test the created agent in Teams.
     select **Microsoft Teams (browser)**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image67.png)
+    incorrect.](./media/image336.png)
 
     You're now ready to run your integrated agent and test it live in
     Microsoft Teams.
@@ -810,12 +810,14 @@ In this task, you will test the created agent in Teams.
     Select **Add** and **Open** to start chatting with your agent.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image68.png)
+    incorrect.](./media/image337.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image338.png)
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image69.png)
+    incorrect.](./media/image339.png)
 
-16. You can ask one of the following questions to interact with the
+17. You can ask one of the following questions to interact with the
     agent.
 
     - +++What’s the difference between Northwind Standard and Health
@@ -831,12 +833,12 @@ In this task, you will test the created agent in Teams.
     you've created on Microsoft Foundry.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image70.png)
+    incorrect.](./media/image340.png)
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image71.png)
+    incorrect.](./media/image341.png)
 
-17. Stop debugging from **Visual Studio 2022**.
+18. Stop debugging from **Visual Studio 2022**.
 
 ## Exercise 5:  Bring your agent to Copilot Chat
 
@@ -853,7 +855,7 @@ inside the Copilot experience.
     "manifestVersion": "1.22",
     ```
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image72.png)
+    incorrect.](./media/image345.png)
 
 2.  Replace **bots** section with the following that will also add
     copilotAgents in the manifest.
@@ -905,7 +907,7 @@ inside the Copilot experience.
     ```
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image73.png)
+    incorrect.](./media/image346.png)
 
 5.  Hit **Start** or **F5** to start debugging. Microsoft Teams will
     launch automatically.
@@ -915,40 +917,44 @@ inside the Copilot experience.
     select **Upload a custom app**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image74.png)
+    incorrect.](./media/image347.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image348.png)
+    ![A screenshot of a computer AI-generated content may be
+    incorrect.](./media/image349.png)
 
-7.  In the File Explorer go to your project folder. The path will
-    be **C:\Users\Admin\source\repos\ContosoHRAgent\ContosoHRAgent** if
+8.  In the File Explorer go to your project folder. The path will
+    be **C:\Users\Admin\source\repos\ZavaHRAgent\ZavaHRAgent** if
     you have not changed the path during the project setup. Navigate
-    to **\ContosoHRAgent\M365Agent\appPackage\build select
+    to **C:\Users\Admin\source\repos\ZavaHRAgent\M365Agent\appPackage\build select
     appPackage.local.zip** and click **Open**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image75.png)
 
-8.  Your app will pop-up on Teams again, select **Add**
+9.  Your app will pop-up on Teams again, select **Add**
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image76.png)
+    incorrect.](./media/image350.png)
 
-9.  Select **Open with Copilot** to test your agent on Copilot.
+10.  Select **Open with Copilot** to test your agent on Copilot.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image77.png)
+    incorrect.](./media/image351.png)
 
-10. Select the conversation starter, **PerksPlus Details** and
+11. Select the conversation starter, **PerksPlus Details** and
     hit **Send**.
 
-    ![](./media/image78.png)
+    ![](./media/image352.png)
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image79.png)
+    incorrect.](./media/image353.png)
 
-11. Observe that you are getting the response from the AI Foundry agent,
+12. Observe that you are getting the response from the AI Foundry agent,
     now on Copilot Chat.
 
     ![A screenshot of a chat AI-generated content may be
-    incorrect.](./media/image80.png)
+    incorrect.](./media/image354.png)
 
 ## Summary
 
