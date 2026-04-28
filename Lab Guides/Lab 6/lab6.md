@@ -61,19 +61,13 @@ intelligent and trustworthy.
 
     ![](./media/image6.png)
 
-7.  Download the following links and **upload** them in your SharePoint
+7.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
     site:
-    - [Product Specs
-    Folder](https://lodsprodmca.sharepoint.com/:f:/s/ZavaSite83/IgCF8RfI1YXJRK5_zYXMnJL_AXpjiHEH91UGboTyVEWfdLA?e=ijxOMV)
-    - [Project
-    Updates](https://lodsprodmca.sharepoint.com/:f:/s/ZavaSite83/IgCavB9UN-_wTJscjUpbM__3AeJOQ33VPqEcEMGt8vBAzy8?e=Kzj8mb)
-
-    - [Shift Handover
-    notes](https://lodsprodmca.sharepoint.com/:f:/s/ZavaSite83/IgBg3QcE7mZOR5HXialQ9k6WAXQN5vKrJnamCopTnHeZ4yI?e=gcVIxi)
-
-    - [SOP
-    library](https://lodsprodmca.sharepoint.com/:f:/s/ZavaSite83/IgAL8XiJS5sjSpbTk2RpOuOnAawg-Ygqug75a9RH7u6ahpo?e=15qSMc)
-    Or you can these file from **C:\Labfiles\Lab3-Lab files**.
+    - Product Specs Folder
+    - Project Updates
+    - Shift Handover notes
+    - SOP
+    library
     ![](./media/image7.png)
 
     > **Note:** *Before testing your Copilot Agent, ensure that all
