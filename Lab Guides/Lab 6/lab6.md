@@ -40,28 +40,31 @@ intelligent and trustworthy.
     365 Copilot.
 
 2.  Sign in with your Microsoft 365 Copilot account.
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
+    ![](./media/image102.png)
 
-3.  Enter the password and click **Yes**, to stay signed in.
+4.  Click **Yes**, to stay signed in.
 
     ![](./media/image2.png)
 
-4.  In the left navigation bar, select **All Agents** and then select
+5.  In the left navigation bar, select **All Agents** and then select
     **SharePoint**.  
     ![](./media/image3.png)
 
-5.  On the SharePoint home page, create your organization’s site. Click
+6.  On the SharePoint home page, create your organization’s site. Click
     **Create site** in the top-left corner and follow the wizard.  
     ![](./media/image4.png)
 
     ![](./media/image5.png)
 
-6.  Paste the site name as +++**ZavaSite**+++
+7.  Paste the site name as +++**ZavaSite**+++
 
     ![](./media/image6.png)
 
-7.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
+8.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
     site:
     - Product Specs Folder
     - Project Updates
