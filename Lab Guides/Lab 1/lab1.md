@@ -125,32 +125,34 @@ Copilot to automate email triage.
     open Microsoft 365 Copilot.
 
 2.  Sign in with your Microsoft 365 Copilot account credentials.
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
+    ![](./media/image102.png)
 
-3.  Enter the password and click **Yes**, to stay signed in.
-
-    ![](./media/image2.png)
+4.  Click **Yes**, to stay signed in.
 
     ![](./media/image3.png)
 
-4.  After successful login, you will see **Copilot Chat** home page.
+5.  After successful login, you will see **Copilot Chat** home page.
 
     ![](./media/image4.png)
 
-5.  In the **left navigation**, select **All Agents** and explore the
+6.  In the **left navigation**, select **All Agents** and explore the
     Agent store.
 
     ![](./media/image5.png)
 
     ![](./media/image6.png)
 
-6.  Scroll down and look for **Workflows (Frontier)** option under
+7.  Scroll down and look for **Workflows (Frontier)** option under
     “Built by Microsoft” header.
 
     ![](./media/image7.png)
 
-7.  Select **Add** to add the **Workflows Agent (Frontier)**.
+8.  Select **Add** to add the **Workflows Agent (Frontier)**.
 
     ![](./media/image8.png)
 
@@ -201,7 +203,7 @@ Copilot to automate email triage.
     - Supplier delays affecting inventory  
     
     Send the structured summary to myself on Microsoft Teams email id -
-    User1-60850421@LODSPRODMCA.onmicrosoft.com.
+    @lab.CloudPortalCredential(User1).Username.
     ```
 
     > **Note:** The email id will be changed to the username you are
@@ -380,7 +382,7 @@ follow-ups.
     “When a new email arrives in Outlook with "Urgent" in the email
     subject:  
     Send a Microsoft Teams reminder to
-    “User1-60891280@lodsprodmca.onmicrosoft.com” to respond to the email
+    “@lab.CloudPortalCredential(User1).Username” to respond to the email
     instantly.  
     If the email is still not responded in 2 hours:  
     Send an escalation notification to Microsoft Teams.
