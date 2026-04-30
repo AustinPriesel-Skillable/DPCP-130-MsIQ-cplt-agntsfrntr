@@ -179,36 +179,36 @@ responds.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image17.png)
 
 7.  A confirmation prompt window will pop-up. Select **Get Started.**
-8.  
+   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image18.png)
 
 9.  Select your **Environment** and Click **Continue**.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image19.png)
 
-11.  You will be redirected to the Copilot Studio page. Here you can edit
+11. You will be redirected to the Copilot Studio page. Here you can edit
     the instructions, and paste the below given instructions:  
 
-        ```
-        You are the Store Operations Assistant for a retail
-        organization. Only answer questions using content from the connected
-        SharePoint sources. Always cite the document name and section. If a
-        question falls outside your knowledge sources, respond: "I don't
-        have that information — please check with your shift manager or
-        visit the intranet." Keep responses to 3–5 bullet points. Do not
-        speculate or summarize information that is not present in a
-        source
-        ```
-
-        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image20.png)
-
-11.  Click **Create**.
+    ```
+    You are the Store Operations Assistant for a retail
+    organization. Only answer questions using content from the connected
+    SharePoint sources. Always cite the document name and section. If a
+    question falls outside your knowledge sources, respond: "I don't
+    have that information — please check with your shift manager or
+    visit the intranet." Keep responses to 3–5 bullet points. Do not
+    speculate or summarize information that is not present in a
+    source
+    ```
     
-        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image20.png)
 
-13.  After reviewing your agent, Click **Publish**.
+11. Click **Create**.
     
-        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image21.png)
+
+13. After reviewing your agent, Click **Publish**.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image22.png)
 
 ### Task 2: Add a Topic: Out-of-Scope Redirect
 
@@ -260,21 +260,22 @@ agent's domain.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image29.png)
 
-10.  Click **Save** to save the topic and then, select **Publish** to
-    publish the agent again.  
+10. Click **Save** to save the topic and then, select **Publish** to publish the agent again.
+    
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image30.png)
 
 ### Task 3: Test the agent
 
-1.  Select **Test** from the upper navigation bar.  
+1.  Select **Test** from the upper navigation bar.
+   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image31.png)
 
-2.  Paste the following prompt, and select the **Execute** button:  
+3.  Paste the following prompt, and select the **Execute** button:  
     +++Can you help me with HR?+++
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image32.png)
 
-3.  Review the output:  
+4.  Review the output:  
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image33.png)
 
 ## Exercise 3: Designing a Multi-Agent Orchestration Pattern
@@ -320,10 +321,10 @@ redirects the user to the second agent.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image37.png)
 
-10.  Click Save and **Publish** to save the node and publish the setting
+10. Click Save and **Publish** to save the node and publish the setting
     again.
 
-![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image38.png)
 
 ### Task 2: Configure the Secondary Agent
 
@@ -343,11 +344,11 @@ out-of-scope queries using multi-agent connections.
 
 5.  In the Instructions field, paste the following instructions:
 
-    +++You are the HR & Payroll Assistant. You handle queries specifically
+    `You are the HR & Payroll Assistant. You handle queries specifically
     related to store operations. Use only verified content from your
     connected sources. Always cite source and section. If a query falls
     outside your scope, say: "That's outside my remit. Please contact the
-    appropriate team+++
+    appropriate team`
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image41.png)
 
@@ -360,7 +361,9 @@ out-of-scope queries using multi-agent connections.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image42.png)
 
 5.  Select **Publish** to publish the secondary
-    agent.![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image43.png)
+    agent.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image43.png)
 
 ### Task 3: Add the Secondary Agent to the Primary Agent. 
 
@@ -394,7 +397,8 @@ out-of-scope queries using multi-agent connections.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image48.png)
 
-11. Select **Publish** to publish the agent.  
+11. Select **Publish** to publish the agent.
+    
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image49.png)
 
 ### Task 4: Test the End-to-End Orchestration
