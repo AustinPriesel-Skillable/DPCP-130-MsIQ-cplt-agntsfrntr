@@ -191,7 +191,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
 11. Click **Create** to publish the agent.
 
-    >[!Note]* Wait for 5-10 minutes for the agent building process
+    >[!Note] Wait for 5-10 minutes for the agent building process
     completion.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image10.png)
@@ -265,22 +265,22 @@ of Zava Retail on Microsoft Teams for better visibility.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image17.png)
 
-10.  Review the Researcher agent’s response: 
+10. Review the Researcher agent’s response: 
 
-      The agent searches across Outlook, Teams, and SharePoint documents to
-      retrieve the following:
-      
-      - Aggregates insights
-      
-      - Builds structured summary
-      
-      - Campaign progress
-      
-      - Vendor updates
-      
-      - Risks
-      
-      - Strategic insights
+    The agent searches across Outlook, Teams, and SharePoint documents to
+    retrieve the following:
+    
+    - Aggregates insights
+    
+    - Builds structured summary
+    
+    - Campaign progress
+    
+    - Vendor updates
+    
+    - Risks
+    
+    - Strategic insights
 
 9. Review the output:
 
