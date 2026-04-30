@@ -361,7 +361,7 @@ The Application Intake Agent fits perfectly as a child agent because:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image42.png)
 
-### Task 3 - Add the Application Intake child agent**
+### Task 3 - Add the Application Intake child agent
 
 In this task, you will add a child agent to the Hiring agent.
 
