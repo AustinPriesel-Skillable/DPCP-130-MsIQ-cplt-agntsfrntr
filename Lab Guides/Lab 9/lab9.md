@@ -250,6 +250,7 @@ Copilot, and other preferred channels.
 1.  From **Desktop**, open **Visual Studio 2022**.
 
     >[Note] If you are asked to login, Select **Microsoft**, **Work or School Account** and login with your @lab.CloudCredential(User1).Ussername
+    
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image16.png)
 
