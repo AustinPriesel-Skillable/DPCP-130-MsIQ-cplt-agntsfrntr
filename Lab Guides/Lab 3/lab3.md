@@ -98,10 +98,10 @@ and configure it inside Microsoft 365 Copilot.
 
     **Agent Name**: +++Zava Retail Workforce Coach+++
 
-    **Agent description**: +++Supports workforce capability development by
+    **Agent description**: `Supports workforce capability development by
     diagnosing skill gaps, generating personalized learning plans, and
     assisting leaders with workforce readiness decisions during digital
-    transformation+++  
+    transformation`  
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image4.png)
 
@@ -199,12 +199,13 @@ Retail.
 ### Task 2: Validate Agent Understanding**
 
 1.  To test the agent, enter the following prompt and click on the
-    **Execute** button.  
-    +++What are the most critical workforce skill domains I should prioritize during this retail digital transformation? +++
+    **Execute** button.
+    
+    `What are the most critical workforce skill domains I should prioritize during this retail digital transformation?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image11.png)
 
-2. Review the output:
+3. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image12.png)
 
@@ -309,8 +310,8 @@ diagnose workforce skills gaps:
 1.  To generate plan for Derek, paste the following prompt and select
     **Execute** button.
 
-    +++Create an 8-week adoption-focused learning plan for Derek that
-    positions RMS mastery as a career growth opportunity.+++
+    `Create an 8-week adoption-focused learning plan for Derek that
+    positions RMS mastery as a career growth opportunity.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image23.png)
 
@@ -344,7 +345,7 @@ diagnose workforce skills gaps:
 1.  To test the workforce readiness and generate a summary for the VP,
     paste the below prompt and click on the **Execute** button.
 
-    +++Condense this into a 5-bullet summary for my VP of HR focused only on HR action items.+++
+    `Condense this into a 5-bullet summary for my VP of HR focused only on HR action items.`
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image27.png)
 
