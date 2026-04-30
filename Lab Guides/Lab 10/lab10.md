@@ -385,7 +385,7 @@ In this task, you will add a child agent to the Hiring agent.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image45.png)
 
-6.  Expand **Advanced**, and set the Priority to be 10000. This will
+6.  Expand **Advanced**, and set the Priority to be +++10000+++. This will
     ensure that later the Interview Agent will be used to answer general
     questions before this one. A condition could be set here as well
     such as ensuring that there is at least one attachment.
