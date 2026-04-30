@@ -554,7 +554,7 @@ Now you'll connect the published flow to your Application Intake Agent.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image72.png)
 
-3.  Select **Workflow** filter and select the **Resume Upload** flow.
+3.  Select **Workflows** filter and select the **Resume Upload** flow.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image73.png)
 
