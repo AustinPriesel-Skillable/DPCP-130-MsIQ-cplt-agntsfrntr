@@ -71,21 +71,21 @@ intelligent and trustworthy.
 10.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
     site:
 
-        - Product Specs Folder
-        - Project Updates
-        - Shift Handover notes
-        - SOP
-        - library
-         
-        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image7.png)
+- Product Specs Folder
+- Project Updates
+- Shift Handover notes
+- SOP
+- library
+ 
+![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image7.png)
 
-        >[!Note] *Before testing your Copilot Agent, ensure that all
-        required source documents (such as project updates, SOP files, product
-        specifications, shift handover notes, or any other referenced materials)
-        are uploaded to the appropriate SharePoint site libraries and folders.
-        The agent can only generate accurate, grounded responses from content
-        that exists in the site and is accessible through its configured
-        knowledge sources.*
+>[!Note] *Before testing your Copilot Agent, ensure that all
+required source documents (such as project updates, SOP files, product
+specifications, shift handover notes, or any other referenced materials)
+are uploaded to the appropriate SharePoint site libraries and folders.
+The agent can only generate accurate, grounded responses from content
+that exists in the site and is accessible through its configured
+knowledge sources.*
 
 ### Task 2: Create a New Agent 
 
