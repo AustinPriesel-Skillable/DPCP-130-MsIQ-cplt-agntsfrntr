@@ -167,9 +167,9 @@ manage car repair records.
 
     ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image7.png)
 
-11.  Under **Accounts** section select **Sign in to Microsoft 365**.
+11. Under **Accounts** section select **Sign in to Microsoft 365**.
 
-        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image14.png)
 
 11. This will open a dialog from the editor to sign in or create a
     Microsoft 365 developer sandbox or Cancel. Select **Sign in**.
