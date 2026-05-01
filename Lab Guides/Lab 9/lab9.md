@@ -264,7 +264,7 @@ Copilot, and other preferred channels.
     ![A screenshot of a computer project AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image19.png)
 
-4.  Provide a name for your agent as +++ZavaHRAgent+++ and
+4.  Provide a name for your project as +++ZavaHRAgent+++ and
     select **Create**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image205.png)
