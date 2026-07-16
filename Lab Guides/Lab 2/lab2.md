@@ -100,11 +100,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
     ![](./media/b4.png)
 
-6.  Select **Open** to access the Researcher agent.
-
-    ![](./media/b5.png)
-
-7.  The **Researcher Agent window** opens in a new pane. 
+6.  The **Researcher Agent window** opens in a new pane. 
 
     ![](./media/b6.png)
 
