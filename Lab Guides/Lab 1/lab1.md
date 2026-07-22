@@ -38,20 +38,20 @@ ready for the busiest shopping season of the year.
 
 ## Key Personas
 
-1.  Priya Nair - Regional Operations Manager: Owns the Peak Season
+1.  **Priya Nair - Regional Operations Manager**: Owns the Peak Season
     Readiness Program and coordinates activities across multiple
     departments. Uses Planner Agent to monitor project health, identify
     risks, and prepare executive updates.
 
-2.  Daniel Chen - Director of Store Operations: Responsible for ensuring
+2.  **Daniel Chen - Director of Store Operations**: Responsible for ensuring
     every retail location is operational before the holiday launch.
     Focuses on store readiness, staffing, and equipment deployment.
 
-3.  Sophia Martinez - Supply Chain Manager: Monitors inventory
+3.  **Sophia Martinez - Supply Chain Manager**: Monitors inventory
     availability, warehouse readiness, and supplier deliveries. Uses
     project updates to reduce stock shortages during peak demand.
 
-4.  Emma Brooks - Marketing Campaign Manager: Coordinates promotional
+4.  **Emma Brooks - Marketing Campaign Manager**: Coordinates promotional
     campaigns and store launch activities. Depends on timely completion
     of cross-functional tasks before marketing campaigns begin.
 
