@@ -80,9 +80,9 @@ Creating plans in the planner
 
 2.  Enter the following credentials to login to Teams:
 
-    - Username - <+++@lab.CloudPortalCredential>(User1).Username+++
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-    - TAP Token - <+++@lab.CloudPortalCredential>(User1).AccessToken+++
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
 
@@ -135,11 +135,11 @@ Creating plans in the planner
 
 10. Now we add the following new tasks in the Store Operations bucket:
 
-    | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
+    | Task name | Status | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
-    | Reset Store Layouts – Region East | Completed | Medium | 5 days ago | Current Username |
-    | Reset Store Layouts – Region West | In Progress | Medium | Tomorrow | Current Username |
-    | Deep-Clean & Signage Refresh – Region West | Not Started | Urgent | 3 days ago (Overdue) | Current Username |
+    | +++Reset Store Layouts – Region East+++ | Completed | Medium | 5 days ago | Current Username |
+    | +++Reset Store Layouts – Region West+++ | In Progress | Medium | Tomorrow | Current Username |
+    | +++Deep-Clean & Signage Refresh – Region West+++ | Not Started | Urgent | 3 days ago (Overdue) | Current Username |
 
     So select **+Add Task** and enter the task name from the above table.
     Then select **Add Task**.
@@ -162,25 +162,25 @@ Creating plans in the planner
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
-    | Post Seasonal Job Openings | Completed | Medium | 7 days ago | Current Username |
-    | Complete Seasonal Hiring – Region East | In Progress | Important | In 2 days | Current Username |
-    | Complete Seasonal Onboarding & Training | Not Started | Medium | In 5 days | Current Username |
+    | +++Post Seasonal Job Openings+++ | Completed | Medium | 7 days ago | Current Username |
+    | +++Complete Seasonal Hiring – Region East+++ | In Progress | Important | In 2 days | Current Username |
+    | +++Complete Seasonal Onboarding & Training+++ | Not Started | Medium | In 5 days | Current Username |
 
 2.  Marketing & Promotions:
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
-    | Finalize Peak Season Campaign Creative | Completed | Medium | 6 days ago | Current Username |
-    | Launch Email & Social Campaign | In Progress | Important | Tomorrow | Current Username |
-    | Coordinate In-Store Promo Displays | Not Started | Medium | In 4 days | Current Username |
+    | +++Finalize Peak Season Campaign Creative+++ | Completed | Medium | 6 days ago | Current Username |
+    | +++Launch Email & Social Campaign+++ | In Progress | Important | Tomorrow | Current Username |
+    | +++Coordinate In-Store Promo Displays+++ | Not Started | Medium | In 4 days | Current Username |
 
 3.  Inventory & Supply Chain
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
-    | Pre-Position Distribution Center Stock | In Progress | Important | Tomorrow | Current Username |
-    | Pre-Position Distribution Center Stock | Not Started | Urgent | Yesterday (Overdue) | Current Username |
-    | Pre-Position Distribution Center Stock | Not Started | Medium | In 6 days | Current Username |
+    | +++Confirm Backup Supplier Agreements+++ | In Progress | Important | Tomorrow | Current Username |
+    | +++Validate Store-Level Inventory counts+++ | Not Started | Urgent | Yesterday (Overdue) | Current Username |
+    | +++Pre-Position Distribution Center Stock+++ | Not Started | Medium | In 6 days | Current Username |
 
     So the final planner will look like this:
 
@@ -244,8 +244,7 @@ project.
 1.  Enter the following prompt in the prompt filed and select Send
     button:
 
-    +++Summarize the tasks in my Planner plan "Zava Retail – Peak Season
-    Readiness+++
+    +++Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"+++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image18.png)
@@ -334,10 +333,12 @@ week.
 
 2.  Enter the following prompt and click the Send button:
 
-    +++ Analyze my Planner plan "Zava Retail – Peak Season Readiness" and
+    ```
+    Analyze my Planner plan "Zava Retail – Peak Season Readiness" and
     recommend the top priorities for this week based on due dates,
-    priorities, and task status.+++
-
+    priorities, and task status.
+    ```
+    
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image28.png)
 
@@ -357,8 +358,7 @@ and other potential risks that may affect the project timeline.
 
 1.  Enter the following prompt and click the Send button:
 
-    +++Which tasks or activities could delay Peak Season Readiness, and are
-    any of them overdue?+++
+    +++Which tasks or activities could delay Peak Season Readiness, and are any of them overdue?+++
 
     ![](./media/image32.png)
 
@@ -382,8 +382,7 @@ the current project status.
 
 1.  Enter the following prompt and click the Send button:
 
-    +++Is the business ready for the start of peak season? Explain why or
-    why not.+++
+    +++Is the business ready for the start of peak season? Explain why or why not.+++
 
     ![](./media/image36.png)
 
@@ -427,9 +426,11 @@ Agent to summarize the Planner plan for executive stakeholders.
 
 2.  Enter the following prompt and click the Send button:
 
-    +++Review my Planner plan "Zava Retail – Peak Season Readiness" and
+    ```
+    Review my Planner plan "Zava Retail – Peak Season Readiness" and
     summarize the current project status, including completed work, tasks in
-    progress, remaining work, and any overdue activities.+++
+    progress, remaining work, and any overdue activities.
+    ```
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image42.png)
@@ -457,8 +458,7 @@ and recommend the next operational priorities.
 
 1.  Enter the following prompt and click the Send button:
 
-    +++Analyze my Planner tasks and recommend the next actions to keep the
-    project on schedule.+++
+    +++Analyze my Planner tasks and recommend the next actions to keep the project on schedule.+++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image46.png)
