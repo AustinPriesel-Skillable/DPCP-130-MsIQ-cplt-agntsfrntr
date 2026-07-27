@@ -86,12 +86,12 @@ and configure it inside Microsoft 365 Copilot.
 
 2.  From the left navigation panel, click **More agents**, then click **Create Agent**.
 
-    ![](./media/p2.png)
+    ![](./media/pp1.png)
 
 3.  The **New Agent** page will be opened. Now click **Skip**.
 
-    ![](./media/p3.png)
-    ![](./media/p4.png)
+    ![](./media/pp2.png)
+    ![](./media/pp3.png)
 
 ## Task 2: Define and Configure Agent 
 
@@ -154,16 +154,16 @@ the files. The required files for this lab are available at **C:\Lab Files\Lab 3
 
     - ERP migration training documentation
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image305.png)
+    ![](./media/pp4.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image306.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image307.png)
+    ![](./media/pp5.png)
 
-4.  Click **Create** and then, select **Go to Agent**.
+4.  Click **Create** and then, select **Start Chat**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image308.png)
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image309.png)
-    ![](./media/p7.png)
+    ![](./media/pp6.png)
+    ![](./media/pp7.png)
+    ![](./media/pp8.png)
 
 ## Exercise 2: Grounding the Agent in Organizational Context
 
@@ -191,7 +191,7 @@ Retail.
     3. Supply chain risk management for mid-career analysts
     ```
 
-    ![](./media/p8.png)
+    ![](./media/pp9.png)
 
 2.  Review the output:
 
