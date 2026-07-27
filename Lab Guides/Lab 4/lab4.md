@@ -63,19 +63,19 @@ first version will be.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image100.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image101.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image102.png)
-    ![](./media/p1.png)
+    ![](./media/bb1.png)
 
 2.  On the left-hand navigation pane, click **More agents\>App Builder
     (Frontier)**.
     
-    ![](./media/p2.png)
+    ![](./media/bb2.png)
 
 3.  Select **Add** to add this agent to your environment.  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image3.png)
+    ![](./media/bb3.png)
 
 4.  The App Builder interface will open with a conversational input
     field — this is where you describe your app.
-    ![](./media/p3.png)
+    ![](./media/bb4.png)
 
 ### Task 2: Describe Your App in Natural Language
 
@@ -93,7 +93,7 @@ first version will be.
     related to asset setup, and a section for IT resources and policies.
     ```
     
-    ![](./media/p4.png)
+    ![](./media/bb5.png)
   
 2.  Once generation is complete, a live preview of your app will appear
     on the right side of the screen — with a navigation panel showing
