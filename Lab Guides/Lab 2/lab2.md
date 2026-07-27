@@ -86,23 +86,23 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
 4.  Explore the Copilot chat environment.
 
-    ![](./media/b2.png)
+    ![](./media/x1.png)
 
 5.  In the left **navigation pane**, look for **Agents**. 
 
     - If **Researcher** appears directly under the **Agents** section \>
     select **Researcher**. 
 
-    ![](./media/b3.png)
+    ![](./media/x2.png)
 
     - If not, select **More agents**. In the **Agent Store** window, under
     the **Built by Microsoft** section, select **Researcher**. 
 
-    ![](./media/b4.png)
+    ![](./media/x3.png)
 
 6.  The **Researcher Agent window** opens in a new pane. 
 
-    ![](./media/b6.png)
+    ![](./media/x4.png)
 
 ## Exercise 2: Run Your First Research Prompt (Campaign Intelligence)
 
@@ -135,7 +135,7 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
     - Key risks or delays 
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image8.png)
+    ![](./media/x5.png)
 
 4.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
@@ -213,8 +213,7 @@ the data, findings, or situation.
 1. Under the Researcher agent, paste the below given prompt in the
 field and then click on the **Send** button. 
 
-    +++Summarize key decisions made across emails and Teams discussions for
-    the campaign.+++
+    +++Summarize key decisions made across emails and Teams discussions for the campaign.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image21.png)
 
@@ -235,7 +234,7 @@ panel and then click on the **Send** button. 
 
     +++Draft an email to the leadership team summarizing campaign readiness and participation.+++
 
-    ![](./media/b7.png)
+    ![](./media/x6.png)
 
 3. Wait for the **Researcher Agent** to gather and summarize the data
 review the Researcher agent carefully. The Researcher Agent may ask
@@ -336,7 +335,7 @@ further. Patricia wants to uncover hidden risks.
 
     +++What open questions or gaps remain in the Zava Festive Campaign?+++
 
-    ![](./media/b11.png)
+    ![](./media/x7.png)
 
 4.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
