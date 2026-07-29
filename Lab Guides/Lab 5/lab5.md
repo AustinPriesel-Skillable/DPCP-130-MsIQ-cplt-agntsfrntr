@@ -131,18 +131,18 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
 4.  Explore the Copilot chat environment.
 
-    ![](./media/q1.png)
+    ![](./media/kk1.png)
 
 5.  Expand **navigation pane**, and look for **More agents**.
 
-    ![](./media/q2.png)
+    ![](./media/kk2.png)
 
 6.  Select **+ Create Agent** to start building a new agent.
 
-    ![](./media/q3.png)
+    ![](./media/kk3.png)
     
 7. Click **Skip** to move to configure page.
-   ![](./media/q3.png)
+   ![](./media/kk4.png)
    
 8. When the **Agent creation panel** opens, paste the following details
     in respective fields to build the agent.
@@ -162,7 +162,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
     Keep responses concise and mobile-friendly.
     ```
 
-    ![](./media/q5.png)
+    ![](./media/kk5.png)
 
 9. Navigate to **Knowledge** section to add knowledge sources.
     Select **Upload from device**.
@@ -188,21 +188,21 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 11. Verify that all the selected files are uploaded in the Knowledge
     sources.
 
-    ![](./media/q8.png)
+    ![](./media/kk6.png)
 
 12. Click **Create** to publish the agent.
 
     >[!Note] Wait for 5-10 minutes for the agent building process
     completion.
 
-    ![](./media/q9.png)
+    ![](./media/kk7.png)
     ![](./media/q10.png)
     
-13. Once the agent is created successfully, click **Go to agent** to
+13. Once the agent is created successfully, click **Start Chat** to
     start using the agent.
 
-    ![](./media/q11.png)
-    ![](./media/a12.png)
+    ![](./media/kk8.png)
+    ![](./media/kk9.png)
     
 ## Exercise 2: Access Frontline Operations Agent in Microsoft Teams
 
@@ -252,7 +252,7 @@ take a specific action based on the data, findings, or situation.
 
     `I am opening cashier. Give me first 20-minute startup checklist.`
 
-    ![](./media/q13.png)
+    ![](./media/kk10.png)
 
 3.  Review the output:
 
