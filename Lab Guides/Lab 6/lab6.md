@@ -413,7 +413,7 @@ out-of-scope queries using multi-agent connections.
     Use this agent when users ask about HR or payroll matters, including
     payslips, leave balances, salary deductions, attendance, tax forms,
     employee benefits, or HR policy questions. Routes employee-related
-    workforce support queries to the HR & Payroll Assistant for accurate
+    workforce support queries to the HR & Payroll Assistant for accurate 
     resolution
     ```
     Click **Add and configure**.
@@ -441,6 +441,7 @@ test scenarios below.
 
 2.  Review the output:  
     ![](./media/a66.png)
+    Note: It will give you multiple outputs.
     
 ## Summary 
 
