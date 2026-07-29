@@ -51,12 +51,12 @@ intelligent and trustworthy.
 3.  Click **Yes**, to stay signed in.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image2.png)
-    ![](./media/a1.png)
+    ![](./media/pp1.png)
 
 4.  From the left navigation bar, select **App Launcher** and then select
     **SharePoint**.
     
-    ![](./media/a2.png)
+    ![](./media/pp2.png)
 
 5.  On the SharePoint home page, create your organization’s site. Select
     **Build** from the left navigation bar.
@@ -80,8 +80,8 @@ intelligent and trustworthy.
     ![](./media/a8.png)
     ![](./media/a9.png)
 
-11. Under **Documents** Section, click **three dots(...)** and then select **Uploads -> Folder upload**.
-    ![](./media/a10.png)
+11. From the **Documents** Section, select **Documents** and then select **Folder upload**.
+    ![](./media/pp3.png)
     
 12. Navigate to **C:\Labfiles\Lab6-Lab files** and select **HR Document** folder and then select **Open** to add this folder in the site.
     ![](./media/a11.png)
@@ -112,13 +112,10 @@ will now build the agent.
   
 1. Navigate back to M365 Copilot window.
    
-2. In the **left navigation**, select **New Agent.**
-   ![](./media/a14.png)
+2. In the **left navigation**, select **New Agent.** Select **Skip** to move to agent configure page.
+   ![](./media/pp4.png)
 
-3. Select **Skip** to move to agnet configure page.
-   ![](./media/a15.png)
-
-4. When the **Create new agent panel** opens, paste the following
+3. When the **Create new agent panel** opens, paste the following
 information in the respective fields:
 
     - **Agent Name**: `Project Knowledge Assistant`
@@ -127,25 +124,25 @@ information in the respective fields:
 
     - **Instructions**: `Provide concise answers using only verified information from included SharePoint sources` 
 
-    ![](./media/a16.png)
+    ![](./media/pp5.png)
    
-5. Navigate back to SharePoint window and copy the **HR Document** folder URL.
+4. Navigate back to SharePoint window and copy the **HR Document** folder URL.
    ![](./media/a17.png)
    
-6.  Navigate back to the M365 Copilot window and under **Knowledge tab** paste the copied URL to add the folder in the agent. 
+5.  Navigate back to the M365 Copilot window and under **Knowledge tab** paste the copied URL to add the folder in the agent. 
 
     ![](./media/a18.png)
     ![](./media/a19.png)
 
-7. Similarly add the remaining folders.
+6. Similarly add the remaining folders.
    ![](./media/a20.png)
    
-8.  Click **Create** to finalize your agent configuration.  
+7.  Click **Create** to finalize your agent configuration.  
 
-    ![](./media/a21.png)
-9. Select **Got to agent** to open newly created agent.
-   ![](./media/a22.png)
-   ![](./media/a23.png)
+    ![](./media/pp7.png)
+8. Select **Start Chat** to open newly created agent.
+   ![](./media/pp8.png)
+   ![](./media/pp9.png)
 
 ### Task 3: Test Your Agent 
 
@@ -180,41 +177,44 @@ responds.
 1.  Navigate back to M365 Copilot window.
 2.  Click on ellipsis icon(...) and select **Edit.**
     
-    ![](./media/a27.png)
+    ![](./media/pp12.png)
 
 3.  Select the ellipsis icon on the upper left corner. Select **Copy to
     Copilot studio**.
     
-    ![](./media/a28.png)
+    ![](./media/pp13.png)
 
 4.  A confirmation prompt window will pop-up. Select **Get Started.**
    
-    ![](./media/a29.png)
+    ![](./media/pp10.png)
 
 5.  Select your **Environment** and Click **Continue**.
    
-    ![](./media/a30.png)
+    ![](./media/pp11.png)
 
 6. You will be redirected to the Copilot Studio page. Here you can edit
     the instructions, and paste the below given instructions:  
 
     ```
-    You are the Store Operations Assistant for a retail
-    organization. Only answer questions using content from the connected
-    SharePoint sources. Always cite the document name and section. If a
-    question falls outside your knowledge sources, respond: "I don't
-    have that information — please check with your shift manager or
-    visit the intranet." Keep responses to 3–5 bullet points. Do not
-    speculate or summarize information that is not present in a
-    source
+    You are the Project Knowledge Assistant.
+
+    Answer only questions related to store operations using the connected SharePoint knowledge sources.
+    
+    If a connected agent has already handled the user's request, do not repeat the transfer, re-evaluate the same request, or invoke the connected agent again.
+    
+    Do not rephrase or repeat the connected agent's response.
+    
+    After a connected agent completes its response, consider the request finished unless the user asks a new question.
+    
+    Always cite the source document when available.
     ```
     Also remove copy from the agent's name.
     
-    ![](./media/a31.png)
+    ![](./media/pp14.png)
     
 7. Click **Create**.
     
-    ![](./media/a32.png)
+    ![](./media/pp15.png)
 
 8. After reviewing your agent, Click **Publish**.
 
@@ -238,7 +238,7 @@ agent's domain.
    
     ![](./media/a36.png)
 
-3.  Paste the name of the topic: +++Out-of-Scope Redirect.+++
+3.  Paste the name of the topic: +++Out-of-Scope Redirect+++
     
     ![](./media/a37.png)
     
@@ -272,8 +272,10 @@ agent's domain.
     ```
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image29.png)
+7. Select the + sign below the message node, then select Topic Management->End conversion.
+   ![](./media/pp16.png)
 
-7. Click **Save** to save the topic and then, select **Publish(2 times)** to publish the agent again.
+8. Click **Save** to save the topic and then, select **Publish(2 times)** to publish the agent again.
     
    ![](./media/a39.png)
    ![](./media/a40.png)
