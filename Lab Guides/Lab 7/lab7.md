@@ -108,11 +108,11 @@ you turned to Copilot for help.
 
 1.  Navigate to +++https://m365.cloud.microsoft+++, select **App Launcher** in the navigation pane.
    
-    ![](./media/m11.png)
+    ![](./media/kk1.png)
 
 2.  Select **Teams**.  
       
-   ![](./media/m12.png)
+   ![](./media/kk2.png)
   
 3.  From left navigation list select Copilot to open the Copilot Chat in Teams.
    
@@ -199,9 +199,9 @@ high-level, vague ones.
     **Work** mode.(Work mode ensures Copilot uses secure internal business context,
     while Web mode searches public external sources.)
     
-    ![](./media/m16.png)
+    ![](./media/kk3.png)
 2. Select the **+ icon** in the prompt field and then select **Upload images and files**.
-   ![](./media/m17.png)
+   ![](./media/kk4.png)
 3. Select **Relecloud Business Perspective.docx** file from **C:\Labfiles\Lab7-Lab files**.
    ![](./media/m18.png)
 4. Paste the following prompt in the prompt field and selec **Send** button to execute the prompt.
@@ -214,7 +214,7 @@ high-level, vague ones.
     clear and structured executive format suitable for leadership review.
     ```
     
-    ![](./media/m19.png)
+    ![](./media/kk5.png)
 
 5.  Review the output:
    
