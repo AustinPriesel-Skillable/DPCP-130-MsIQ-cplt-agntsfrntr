@@ -553,7 +553,6 @@ EchoBot.cs.
 
         // initialize a new agent instance from the agent definition
         var agent = new AzureAIAgent(agentDefinition, _projectClient);
-    
         string? threadId = null; 
         var thread = new AzureAIAgentThread(_projectClient);
 
@@ -804,10 +803,6 @@ In this task, you will test the created agent in Teams.
     agent.
 
     - +++What’s the difference between Northwind Standard and Health Plus when it comes to emergency and mental health coverage?+++
-
-    - +++Can I use PerksPlus to pay for both a rock climbing class and a virtual fitness program?+++
-
-    - +++What values guide behavior and decision-making at Contoso Electronics?+++
 
     You should observe that you are getting similar responses with the agent
     you've created on Microsoft Foundry.
