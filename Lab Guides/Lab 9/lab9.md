@@ -553,6 +553,9 @@ EchoBot.cs.
 
         // initialize a new agent instance from the agent definition
         var agent = new AzureAIAgent(agentDefinition, _projectClient);
+    
+        string? threadId = null; 
+        var thread = new AzureAIAgentThread(_projectClient);
 
         try
         {
