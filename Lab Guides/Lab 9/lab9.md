@@ -145,8 +145,10 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
 8. It will ask you to deploy model so select **gpt-5** -> Select **Confirm**.
    ![](./media/kk1.png)
 9. Select **Deploy** to deploy the agent.
-    **Note:** You will get the pop-up regarding agent(classic) deprecation so select **Create agent**. To confirm select **Yes**. 
+     
     ![](./media/kk2.png)
+   **Note:** You will get the pop-up regarding agent(classic) deprecation so select **Create agent**. To confirm select **Yes**.
+   
 10.  When your project is created, you'll land in the **Agents playground**.
     ![](./media/b9.png)
     
@@ -891,7 +893,7 @@ inside the Copilot experience.
     launch automatically.
 
 4.  When Microsoft Teams open in your browser, ignore the app pop-up and
-    select **+->Apps \> Manage your apps \> Upload an app** and then
+    select **+->Apps \>Gear icon \> Manage your apps \> Upload an app** and then
     select **Upload a custom app**.
 
     ![](./media/b27.png)
