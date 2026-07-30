@@ -142,18 +142,20 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
 7.  This will scaffold a new project for you in Microsoft Foundry, it
     usually takes 3-5 minutes.
 
-8.  When your project is created, you'll land in the **Agents
-    Playground**.
-
+8. It will ask you to deploy model so select **gpt-5** -> Select **Confirm**.
+   ![](./media/kk1.png)
+9. Select **Deploy** to deploy the agent.
+    **Note:** You will get the pop-up regarding agent(classic) deprecation so select **Create agent**. To confirm select **Yes**. 
+    ![](./media/kk2.png)
+10.  When your project is created, you'll land in the **Agents playground**.
     ![](./media/b9.png)
     
-9.  Now that you're inside the Agents Playground, you'll customize your
+11.  Now that you're inside the Agents Playground, you'll customize your
     agent's identity and behavior from **Setup** to match a real-world scenario: an
     internal HR Agent at Zava retail.
-
     ![](./media/b10.png)
 
-10. In your agent's Setup panel, name your agent as **+++Zava HR
+12. In your agent's Setup panel, name your agent as **+++Zava HR
     Agent+++** and update the Instructions as the following:
 
     ```
@@ -192,7 +194,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
 
     ![](./media/b11.png)
 
-11. In the Knowledge section, select **+ Add** and select **Files**,
+13. In the Knowledge section, select **+ Add** and select **Files**,
     then **Select local files**.
 
     ![](./media/b12.png)
@@ -202,13 +204,13 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image10.png)
 
-12. Navigate to **C:\Labfiles\M365 Agents SDK** and select all the files
+14. Navigate to **C:\Labfiles\M365 Agents SDK** and select all the files
     inside that and click **Open**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image11.png)
 
-13. Select **Upload and save** to upload them. This will create a vector
+15. Select **Upload and save** to upload them. This will create a vector
     store for our agent.
 
     ![A screenshot of a computer AI-generated content may be
@@ -216,18 +218,18 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
     
     > Note: **Try again** if you get any eror while uploading the files.
 
-14. When you upload documents, Foundry automatically converts them into
+16. When you upload documents, Foundry automatically converts them into
     vectors, a format that allows the agent to search and retrieve
     relevant information efficiently.
 
     ![](./media/b14.png)
     
-15. Save the **Agent id** to a notepad, that'll be required in the next
+17. Save the **Agent id** to a notepad, that'll be required in the next
     exercises. You can find your Agent id in the agent’s details.
 
     ![](./media/b15.png)
 
-16. Also, go to the **Overview** page and save the value of **Microsoft Foundry project endpoint** to the notepad.
+18. Also, go to the **Overview** page and save the value of **Microsoft Foundry project endpoint** to the notepad.
 
     ![](./media/b16.png)
 
@@ -552,16 +554,6 @@ EchoBot.cs.
         // initialize a new agent instance from the agent definition
         var agent = new AzureAIAgent(agentDefinition, _projectClient);
 
-        // retrieve the threadId from the conversation state
-        // this is set if the agent has been invoked before in the same conversation
-        var threadId = turnState.Conversation.ThreadId();
-
-        // if the threadId is not set, we create a new thread
-        // otherwise, we use the existing thread
-        var thread = string.IsNullOrEmpty(threadId)
-            ? new AzureAIAgentThread(_projectClient)
-            : new AzureAIAgentThread(_projectClient, threadId);
-
         try
         {
             // increment the message count in state and queue the count to the user
@@ -574,13 +566,6 @@ EchoBot.cs.
             // invoke the agent and stream the responses to the user
             await foreach (AgentResponseItem<StreamingChatMessageContent> agentResponse in agent.InvokeStreamingAsync(message, thread, cancellationToken: cancellationToken))
             {
-                // if the threadId is not set, we set it from the agent response
-                // and store it in the conversation state for future use
-                if (string.IsNullOrEmpty(threadId))
-                {
-                    threadId = agentResponse.Thread.Id;
-                    turnState.Conversation.ThreadId(threadId);
-                }
 
                 turnContext.StreamingResponse.QueueTextChunk(agentResponse.Message.Content);
             }
