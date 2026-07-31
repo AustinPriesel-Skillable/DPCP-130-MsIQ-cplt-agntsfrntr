@@ -118,7 +118,7 @@ shipping, returns, and customer support policies.
 
 14. Ensure that the added documents change to **Ready** state.
 
-    \[!Alert\] It may take up to 10 mminutes for the status to change to
+    \[!Alert\] It may take up to 10 minutes for the status to change to
     "Ready".
 
     ![](./media/m10.png)
