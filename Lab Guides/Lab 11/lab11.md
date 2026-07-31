@@ -504,7 +504,9 @@ search. You will vectorize the uploaded data in this exercise.
 5.  In the Vectorize your text screen, the subscription is
     pre-populated. Enter the below details and click **Next**.
 
-    - Azure OpenAI resource - Select **openaiservice@Lab.LabInstance.ID**
+    - Kind: Select **Foundry resource(Microsoft Foundry/Azure OpenAI)**
+
+    - Microsoft Foundry service/project: Select **openaiservice@Lab.LabInstance.ID**
 
     - Model deployment - Select **text-embedding-3-large**
 
@@ -512,9 +514,8 @@ search. You will vectorize the uploaded data in this exercise.
 
     - Select the checkbox to acknowledge the cost alert of Azure OpenAI.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image53.png)
-
+    ![](./media/ee1.png)
+    
 6.  Select Next in the **Vectorize and enrich your images** screen since
     we are not dealing with images here and select **Next** in
     the **Advanced settings** screen as well.
@@ -633,20 +634,20 @@ it in the Copilot Studio (in the next exercise).
 
     ![](./media/v42.png)
     
-4.  Select **gpt-4o** and select **Confirm**.
+4.  Select **o3** and select **Confirm**.
 
-    ![](./media/v43.png)
+    ![](./media/ee2.png)
     
-5.  In the Deploy gpt-4o dialog, enter the **Deployment name** as
+5.  In the Deploy o3 dialog, enter the **Deployment name** as
     +++ModelforMCS+++, accept the other defaults and
     select **Deploy.**
 
-    ![](./media/v44.png)
+    ![](./media/ee3.png)
 
 6.  Copy the Target URI and key values to a notepad to be used during
     the connection creation from the Copilot Studio.
 
-    ![](./media/v45.png)
+    ![](./media/ee4.png)
 
 Now that the model is deployed, you can use it in Copilot Studio's agent
 prompt.
@@ -665,7 +666,7 @@ business requirements and then use it in Copilot Studio.
     
 2.  Select **Prompt** since we are going to add a new prompt.
 
-    ![](./media/v48.png)
+    ![](./media/ee5.png)
 
 3.  In the Custom prompt screen, select the drop down next to
     the **model** name.
@@ -684,13 +685,13 @@ business requirements and then use it in Copilot Studio.
 
     - Model deployment name - +++ModelforMCS+++
 
-    - Base model name - +++gpt-4o+++
+    - Base model name - +++o3+++
 
     - Azure model endpoint URL - Enter the target url saved earlier
 
     - API Key - Enter the model API key saved earlier.
 
-    ![](./media/v51.png)
+    ![](./media/ee6.png)
 
 6.  Once connected, select **Close**.
 
@@ -701,15 +702,21 @@ business requirements and then use it in Copilot Studio.
 
     ![](./media/v52.png)
 
-8.  Rename the prompt to +++WM Types+++. Enter +++What are the different types of Washing Machines?+++ and select **Test**.
+8.  Rename the prompt to +++WM Types+++. Enter +++What are the different types of Washing Machines?+++ and select **Send**.
 
-    ![](./media/v53.png)
+    ![](./media/ee7.png)
     
-9. Scroll down and select **Save** to save the prompt.
+9. Select **Keep it**.
+    ![](./media/ee8.png)
+   
+10. Select Test to test the prompts.
+    ![](./media/ee9.png)
+    
+11. Scroll down and select **Save** to save the prompt.
 
     ![](./media/v54.png)
 
-10. Select the **Add and configure** option to add the prompt to the
+12. Select the **Add and configure** option to add the prompt to the
     agent.
 
     ![A screenshot of a computer AI-generated content may be
