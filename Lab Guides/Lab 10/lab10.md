@@ -966,16 +966,15 @@ agent to achieve multi agent orchestration.
     TESTPERSON pdf), and enter the following description which tell the
     parent agent what it can delegate to the connected agent:
     ```
-    Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match.
+    Upload and process this resume. Then generate interview questions for the Power Platform Developer role using the candidate's resume and the evaluation criteria.
     ```
     ![](./media/a64.png)
-    ![](./media/a65.png)
+    ![](./media/a22a.png)
 
 4.  Notice how the Hiring Agent delegated the upload to the child agent,
-    and then asked the Interview Agent to provide a summary and job role
-    match using its knowledge.
+    and then asked the Interview Agent to provide interview questions for the candidate.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image122.png)
+    ![](./media/a23a.png)
 
 ## Exercise 6: Automating candidate application emails
 
