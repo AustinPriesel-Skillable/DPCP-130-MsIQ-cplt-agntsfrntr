@@ -241,7 +241,7 @@ before the weekly planning meeting. Instead of manually reviewing every
 task, you'll ask Planner Agent to generate a high-level summary of the
 project.
 
-1.  Enter the following prompt in the prompt filed and select Send
+1.  Enter the following prompt in the prompt field and select **Send**
     button:
 
     +++Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"+++
