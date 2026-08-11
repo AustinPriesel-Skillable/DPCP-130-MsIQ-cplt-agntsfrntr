@@ -1,4 +1,4 @@
-# Lab 12 – Orchestrating multi-agent AI for retail using Copilot Studio and Fabric
+# Lab 16 – Orchestrating multi-agent AI for retail using Copilot Studio and Fabric
 
 ## Objective:
 
