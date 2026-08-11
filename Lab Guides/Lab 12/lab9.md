@@ -1,4 +1,4 @@
-# Lab 9 - Develop a Cross-Channel HR Support Agent for Zava Retail using Microsoft 365 Agents SDK and Semantic Kernel
+# Lab 12 - Develop a Cross-Channel HR Support Agent for Zava Retail using Microsoft 365 Agents SDK and Semantic Kernel
 
 **Estimated duration –** 80 minutes
 
