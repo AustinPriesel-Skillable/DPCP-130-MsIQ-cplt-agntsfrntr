@@ -1,4 +1,4 @@
-# Build a Multi-Agent System for the Education Industry to Automate Student Services
+# Lab 17 - Build a Multi-Agent System for the Education Industry to Automate Student Services
 
 ## Scenario
 
