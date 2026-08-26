@@ -1,0 +1,11 @@
+StudentID,FullName,Email,Program,Year,Phone
+STU001,Ava Thompson,ava.thompson@riverbend.edu,BSc Computer Science,2,555-0101
+STU002,Liam Chen,liam.chen@riverbend.edu,B.Tech Computer Engineering,3,555-0102
+STU003,Sophia Patel,sophia.patel@riverbend.edu,Bachelor of Business Administration (BBA),1,555-0103
+STU004,Noah Rodriguez,noah.rodriguez@riverbend.edu,BSc Data Science,2,555-0104
+STU005,Emma Nguyen,emma.nguyen@riverbend.edu,BA Economics,4,555-0105
+STU006,Oliver Smith,oliver.smith@riverbend.edu,BSc Biotechnology,3,555-0106
+STU007,Isabella Kim,isabella.kim@riverbend.edu,MSc Data Science,1,555-0107
+STU008,Ethan Johnson,ethan.johnson@riverbend.edu,Master of Business Administration (MBA),2,555-0108
+STU009,Mia Garcia,mia.garcia@riverbend.edu,M.Tech Computer Science,1,555-0109
+STU010,Lucas Brown,lucas.brown@riverbend.edu,MSc Artificial Intelligence,2,555-0110

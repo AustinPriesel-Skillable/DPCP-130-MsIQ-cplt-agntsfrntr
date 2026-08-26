@@ -1,0 +1,16 @@
+ISBN,Title,Author,Genre,CopiesTotal,CopiesAvailable,Availability
+9780132350884,Clean Code,Robert C. Martin,Software Engineering,4,2,Available
+9780262033848,Introduction to Algorithms,"Cormen, Leiserson, Rivest, Stein",Computer Science,3,0,Checked Out
+9780134685991,Effective Java,Joshua Bloch,Software Engineering,3,1,Available
+9780321751041,The Art of Computer Programming Vol. 1,Donald Knuth,Computer Science,2,2,Available
+9781491910774,Designing Data-Intensive Applications,Martin Kleppmann,Computer Science,3,0,Checked Out
+9780262046305,Pattern Recognition and Machine Learning,Christopher Bishop,Data Science,2,1,Available
+9780393350793,"Thinking, Fast and Slow",Daniel Kahneman,Psychology,5,3,Available
+9780134093413,Database System Concepts,"Silberschatz, Korth, Sudarshan",Computer Science,4,0,Checked Out
+9781118147596,Principles of Economics,N. Gregory Mankiw,Economics,4,2,Available
+9780262533058,Deep Learning,"Goodfellow, Bengio, Courville",Data Science,2,0,Checked Out
+9780199670802,Molecular Biology of the Cell,Bruce Alberts,Biotechnology,3,1,Available
+9780134494166,Clean Architecture,Robert C. Martin,Software Engineering,3,3,Available
+9781259918953,Financial Management: Theory & Practice,Brigham & Ehrhardt,Business,4,1,Available
+9780262039420,Reinforcement Learning: An Introduction,Sutton & Barto,Data Science,2,0,Reserved
+9780321563842,Operating System Concepts,"Silberschatz, Galvin, Gagne",Computer Science,3,2,Available

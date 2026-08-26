@@ -1,0 +1,11 @@
+FeeRecordID,StudentID,Program,BalanceDue,DueDate,PaymentStatus
+FEE001,STU001,BSc Computer Science,0.00,2026-08-15,Paid
+FEE002,STU002,B.Tech Computer Engineering,1200.00,2026-09-05,Pending
+FEE003,STU003,Bachelor of Business Administration (BBA),2450.50,2026-08-30,Overdue
+FEE004,STU004,BSc Data Science,850.00,2026-09-10,Pending
+FEE005,STU005,BA Economics,0.00,2026-08-15,Paid
+FEE006,STU006,BSc Biotechnology,1600.75,2026-08-25,Overdue
+FEE007,STU007,MSc Data Science,3100.00,2026-09-05,Pending
+FEE008,STU008,Master of Business Administration (MBA),0.00,2026-08-15,Paid
+FEE009,STU009,M.Tech Computer Science,2200.00,2026-09-10,Pending
+FEE010,STU010,MSc Artificial Intelligence,975.25,2026-08-30,Overdue

@@ -1,0 +1,31 @@
+TimetableID,StudentID,Semester,Subject,ExamDate,ExamTime,Hall
+TT001,STU001,1,Algorithms,2026-11-18,9:00 AM,Hall A-2
+TT002,STU001,1,Operating Systems,2026-11-21,10:00 AM,Hall B-1
+TT003,STU001,1,Database Systems,2026-11-25,1:00 PM,Hall B-2
+TT004,STU002,1,Data Structures,2026-11-18,9:00 AM,Hall C-1
+TT005,STU002,1,Operating Systems,2026-11-21,10:00 AM,Hall A-1
+TT006,STU002,1,Algorithms,2026-11-25,1:00 PM,Hall A-2
+TT007,STU003,1,Discrete Mathematics,2026-11-18,9:00 AM,Hall B-1
+TT008,STU003,1,Operating Systems,2026-11-21,10:00 AM,Hall B-2
+TT009,STU003,1,Database Systems,2026-11-25,1:00 PM,Hall C-1
+TT010,STU004,1,Database Systems,2026-11-18,9:00 AM,Hall A-1
+TT011,STU004,1,Data Structures,2026-11-21,10:00 AM,Hall A-2
+TT012,STU004,1,Discrete Mathematics,2026-11-25,1:00 PM,Hall B-1
+TT013,STU005,1,Data Structures,2026-11-18,9:00 AM,Hall B-2
+TT014,STU005,1,Database Systems,2026-11-21,10:00 AM,Hall C-1
+TT015,STU005,1,Operating Systems,2026-11-25,1:00 PM,Hall A-1
+TT016,STU006,1,Database Systems,2026-11-18,9:00 AM,Hall A-2
+TT017,STU006,1,Data Structures,2026-11-21,10:00 AM,Hall B-1
+TT018,STU006,1,Algorithms,2026-11-25,1:00 PM,Hall B-2
+TT019,STU007,1,Distributed Systems,2026-11-18,9:00 AM,Hall C-1
+TT020,STU007,1,Advanced Statistics,2026-11-21,10:00 AM,Hall A-1
+TT021,STU007,1,Strategic Management,2026-11-25,1:00 PM,Hall A-2
+TT022,STU008,1,Machine Learning,2026-11-18,9:00 AM,Hall B-1
+TT023,STU008,1,Research Methods,2026-11-21,10:00 AM,Hall B-2
+TT024,STU008,1,Distributed Systems,2026-11-25,1:00 PM,Hall C-1
+TT025,STU009,1,Advanced Statistics,2026-11-18,9:00 AM,Hall A-1
+TT026,STU009,1,Machine Learning,2026-11-21,10:00 AM,Hall A-2
+TT027,STU009,1,Research Methods,2026-11-25,1:00 PM,Hall B-1
+TT028,STU010,1,Research Methods,2026-11-18,9:00 AM,Hall B-2
+TT029,STU010,1,Advanced Statistics,2026-11-21,10:00 AM,Hall C-1
+TT030,STU010,1,Machine Learning,2026-11-25,1:00 PM,Hall A-1
