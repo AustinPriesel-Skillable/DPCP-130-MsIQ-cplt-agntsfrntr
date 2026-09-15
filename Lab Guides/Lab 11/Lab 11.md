@@ -117,13 +117,15 @@ more across TypeScript, C#, and Python.
     following command:
 
     +++teams project new python project-assistant --template echo+++
+    ![](./media/a1.png)
 
-7.  Enter +++Y+++ and hit Enter. This confirms you want to scaffold a new Python-based Teams app named project-assistant using the echo template.
+8.  Enter +++Y+++ and hit Enter. This confirms you want to scaffold a new Python-based Teams app named project-assistant using the echo template.
+    ![](./media/a2.png)
 
-
-8.  Move into the project:
+9.  Move into the project:
 
     +++cd project-assistant+++
+    ![](./media/a3.png)
 
 ### Task 2 – Install dependencies
 
@@ -452,8 +454,10 @@ capabilities.
 
     In this example, the project_status() function generates the response
     and ctx.send() delivers it to the Teams conversation.
+    
+    ![](./media/a4.png)
 
-7.  **Fallback Response**
+8.  **Fallback Response**
 
     Not every user message will match the conditions defined in the
     application. When no matching keyword is found, the assistant provides
@@ -473,7 +477,7 @@ capabilities.
 
     ![](./media/image18.png)
 
-8.  **Application Lifecycle**
+9.  **Application Lifecycle**
 
     The application starts when main.py is executed.
 
@@ -728,7 +732,7 @@ introduces a practical Teams interaction beyond plain text messages.
         ```
 
     This handler processes the learner’s button selection and returns an appropriate response when they choose Send Update or Cancel.
-    
+![](./media/a5.png)
 6. Save the file using CTRL+S.
 7.	So the file main.py file will look like this:
 
@@ -1134,7 +1138,7 @@ install the app in Teams for end-to-end testing.
 3.  To register the app. Replace the tunnel URL with **your actual
     URL**:
 
-    +++teams app create --name Project-Assistant --endpoint https://<tunnel-host>/api/messages --env .env+++
+    +++teams app create --name Project-Assistant --endpoint https://YOUR-TUNNEL-HOST/api/messages --env .env+++
 
     For example:
 
