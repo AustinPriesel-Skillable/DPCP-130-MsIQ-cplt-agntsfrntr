@@ -1,4 +1,4 @@
-# Lab 10 - Build Autonomous Hiring Operations Platform for Zava Retail using Microsoft Copilot Studio
+# Lab 14 - Build Autonomous Hiring Operations Platform for Zava Retail using Microsoft Copilot Studio
 
 ## Scenario
 
