@@ -13,7 +13,7 @@ updates.
 
 To help project teams work more efficiently, **Christine Parker, CTO**
 at Zava Retail, has asked the technology team to introduce a
-project-management assistant directly in Microsoft Teams**,** where
+project-management assistant directly in **Microsoft Teams**, where
 teams already collaborate, hold meetings, and share project updates.
 Using the **Microsoft Teams SDK**, you will build a **Zava Project
 Status Assistant** that can support multiple projects and help users
