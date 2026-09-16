@@ -1,4 +1,4 @@
-# Lab 13 Build a Healthcare Agent to Automate Patient Appointments
+# Lab 13 - Build a Healthcare Agent to Automate Patient Appointments
 
 ## Scenario
 
