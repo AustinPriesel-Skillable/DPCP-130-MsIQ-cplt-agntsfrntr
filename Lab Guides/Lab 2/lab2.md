@@ -91,7 +91,7 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
 
 1. Go to the Researcher agent, paste the following prompt in the prompt field, and then click on the **Execute** button.
   
-    +++Help me gather and summarize all recent discussions, documents, and emails related to Zava Retail Festive Campaign from the past 90 days. Include: - Campaign planning progress - Vendor onboarding updates - Inventory readiness - Marketing campaign activities - Key risks or delays+++
+    `Help me gather and summarize all recent discussions, documents, and emails related to Zava Retail Festive Campaign from the past 90 days. Include: - Campaign planning progress - Vendor onboarding updates - Inventory readiness - Marketing campaign activities - Key risks or delays`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/x5.png)
 
@@ -141,7 +141,7 @@ Patricia Gray needs clear next steps and decisions. This exercise will help Rese
 
 1. In the Researcher agent, paste the below given prompt in the field and then click on the **Send** button.
 
-    +++List all action items related to the Zava Festive Campaign.+++
+    `List all action items related to the Zava Festive Campaign.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image18.png)
 
@@ -159,7 +159,7 @@ Patricia Gray needs clear next steps and decisions. This exercise will help Rese
 
 1. Under the Researcher agent, paste the below given prompt in the field and then click on the **Send** button.
 
-    +++Summarize key decisions made across emails and Teams discussions for the campaign.+++
+    `Summarize key decisions made across emails and Teams discussions for the campaign.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image21.png)
 
@@ -178,7 +178,7 @@ Patricia Gray needs clear next steps and decisions. This exercise will help Rese
 1. Select **new chat** button to start new chat
 1. Under Researcher agent, paste the below given prompt in the chat panel and then click on the **Send** button.
 
-    +++Draft an email to the leadership team summarizing campaign readiness and participation.+++
+    `Draft an email to the leadership team summarizing campaign readiness and participation.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/x6.png)
 
@@ -201,7 +201,7 @@ Meeting preparation prompts help you gather background information, summarize ke
 
 1. Under the Researcher agent, paste the below given prompt in the field and then click on the **Send** button.
 
-    +++Help me prepare for an upcoming meeting by summarizing recent communication and shared files about.+++
+    `Help me prepare for an upcoming meeting by summarizing recent communication and shared files about.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image29.png)
 
@@ -219,7 +219,7 @@ Meeting preparation prompts help you gather background information, summarize ke
 
 1. Paste the below given prompt in the field and then click on the **Send** button.
 
-    +++What topics have been discussed in past weekly team syncs?+++
+    `What topics have been discussed in past weekly team syncs?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/b8.png)
   
@@ -259,7 +259,7 @@ This section helps identify missing information, unclear points, or areas needin
 
 1. Under Research agent window, paste the below given prompt in the field and then click on the **Send** button.
 
-    +++What open questions or gaps remain in the Zava Festive Campaign?+++
+    `What open questions or gaps remain in the Zava Festive Campaign?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/x7.png)
 

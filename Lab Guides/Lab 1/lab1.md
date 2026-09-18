@@ -179,7 +179,7 @@ Regional leadership has requested an overview of the readiness program before th
 
 1. Enter the following prompt in the prompt field and select **Send** button:
 
-    +++Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"+++
+    `Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
 
@@ -204,7 +204,7 @@ After understanding the overall project status, Priya wants to know which initia
 
 1. Enter the following prompt and click Send button:
 
-    +++Which tasks are currently in progress?+++
+    `Which tasks are currently in progress?`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
 
@@ -219,7 +219,7 @@ Before discussing remaining work, Priya also wants to recognize milestones that 
 
 1. Enter the following prompt and click the Send button:
 
-    +++Which readiness activities have already been completed?+++
+    `Which readiness activities have already been completed?`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
 
@@ -244,7 +244,7 @@ With dozens of active tasks across multiple departments, it isn't always obvious
 
 1. Enter the following prompt and click the Send button:
 
-    +++Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.+++
+    `Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.`
   
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
 
@@ -263,7 +263,7 @@ Priya now wants to understand which activities could delay the Peak Season Readi
 
 1. Enter the following prompt and click the Send button:
 
-    +++Which tasks or activities could delay Peak Season Readiness, and are any of them overdue?+++
+    `Which tasks or activities could delay Peak Season Readiness, and are any of them overdue?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image32.png)
 
@@ -282,7 +282,7 @@ After reviewing priorities and risks, Priya needs to determine whether the organ
 
 1. Enter the following prompt and click the Send button:
 
-    +++Is the business ready for the start of peak season? Explain why or why not.+++
+    `Is the business ready for the start of peak season? Explain why or why not.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image36.png)
 
@@ -313,7 +313,7 @@ Before discussing operational decisions, leadership needs a quick overview of th
 
 1. Enter the following prompt and click the Send button:
 
-    +++Review my Planner plan "Zava Retail – Peak Season Readiness" and summarize the current project status, including completed work, tasks in progress, remaining work, and any overdue activities.+++
+    `Review my Planner plan "Zava Retail – Peak Season Readiness" and summarize the current project status, including completed work, tasks in progress, remaining work, and any overdue activities.`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image42.png)
 
@@ -332,7 +332,7 @@ Leadership now wants to understand what actions should be taken to keep the proj
 
 1. Enter the following prompt and click the Send button:
 
-    +++Analyze my Planner tasks and recommend the next actions to keep the project on schedule.+++
+    `Analyze my Planner tasks and recommend the next actions to keep the project on schedule.`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image46.png)
 
