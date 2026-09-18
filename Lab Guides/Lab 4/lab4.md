@@ -39,26 +39,26 @@ App Builder works like a conversation. You describe the app you need in plain la
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image100.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image100.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image101.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image101.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image102.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image102.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb1.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb1.png)
 
 
 1. On the left-hand navigation pane, click **More agents\>App Builder (Frontier)**.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb2.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb2.png)
 
 1. Select **Add** to add this agent to your environment.  
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb3.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb3.png)
 
 1. The App Builder interface will open with a conversational input field — this is where you describe your app.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb4.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb4.png)
 
 
 ### Task 2: Describe Your App in Natural Language
@@ -76,15 +76,15 @@ App Builder works like a conversation. You describe the app you need in plain la
     related to asset setup, and a section for IT resources and policies.
     ```
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb5.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/bb5.png)
   
 1. Once generation is complete, a live preview of your app will appear on the right side of the screen — with a navigation panel showing sections such as Dashboard, Employees, Tasks, Resources, and potential Feedback.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p5.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p5.png)
   
 1. On the left side, Copilot will summarize what it built and may suggest enhancements. Read through its summary before proceeding.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p6.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p6.png)
 
 
 ## Exercise 2: Refine the App Through Conversation
@@ -95,22 +95,22 @@ App Builder works like a conversation. You describe the app you need in plain la
 
 1. In the App Builder conversation input on the left, paste the below prompt and click on the **Send** button.
 
-    +++Add a section to the dashboard that highlights overdue asset requests — items that have been in Pending Collection status for more than 7 days. Show the employee's name, asset type, and how many days are overdue.+++
+    `Add a section to the dashboard that highlights overdue asset requests — items that have been in Pending Collection status for more than 7 days. Show the employee's name, asset type, and how many days are overdue.`
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p7.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p7.png)
 
 1. Confirm the dashboard now includes an overdue section with the fields you specified.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p8.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p8.png)
 
 
 ### Task 2: Add Task Priority Indicators
 
 1. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++In the Tasks section, add priority indicators — High, Medium, and Low — for each task. Also add a Due This Week view that filters to show only tasks due within the next 7 days+++
+    `In the Tasks section, add priority indicators — High, Medium, and Low — for each task. Also add a Due This Week view that filters to show only tasks due within the next 7 days`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p9.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p9.png)
 
 1. Once the response is generated, review the updated Tasks section in the preview.
 
@@ -119,7 +119,7 @@ App Builder works like a conversation. You describe the app you need in plain la
     - Priority labels are visible on each task
     - A Due This Week filter or view is available
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p10.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p10.png)
 
 
 ### Task 3: Enhance the Employee Section
@@ -128,13 +128,13 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++In the Employees section, add a column showing each employee's asset setup status — either Complete or In Progress. Also add a filter so the IT team can view only employees with In Progress status who may need follow-up.+++
+    `In the Employees section, add a column showing each employee's asset setup status — either Complete or In Progress. Also add a filter so the IT team can view only employees with In Progress status who may need follow-up.`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p11.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p11.png)
 
 1. Review the updated **Employees** section.  
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p12.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p12.png)
 
 
 ## Exercise 4: Test the App as a Real IT Team Member Would
@@ -143,7 +143,7 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. In the app preview, navigate to the Asset section.  
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p13.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p13.png)
 
 1. To add a new asset record, paste the following details in respective fields.
 
@@ -154,29 +154,29 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
     >[!Note] This asset is yet to be assigned.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p14.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p14.png)
 
 
 1. Save the record.  
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p15.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p15.png)
 
 
 ### Task 2: Complete a Task and Check Progress
 
 1. Navigate to the **Tasks** section.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p16.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p16.png)
 
 1. Find a task related to Provision new laptop for store manager. Select the checkbox to mark it as completed.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p17.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p17.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p18.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p18.png)
   
 1. Return to the Dashboard and review that the overall completion percentage changes accordingly.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p19.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p19.png)
 
 
 ## Exercise 5: Publish the App and Share It with Your Team
@@ -187,15 +187,15 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. Click **Publish**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p20.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p20.png)
 
 1. Once published, App Builder will generate a direct link to your app. Select **Share ->Copy link** to copy this link.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p21.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p21.png)
 
 1. Select **Copy** to copy the link.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p22.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p22.png)
 
     >[!Note] Save the link in your notes. It will be used in the upcoming task.
 
@@ -204,7 +204,7 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. Open a new browser tab and paste the direct link you have copied in Task 1 of the same exercise.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image22.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image22.png)
 
 1. Review that the app loads correctly with:
 
@@ -212,26 +212,26 @@ The IT team needs to see not just a list of employees, but a clear record of wha
     - Navigation sections (Employees, Tasks, Resources) accessible
     - The overdue items section present on the dashboard
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p23.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p23.png)
 
 
 ### Task 3: Share and Brief Your Team
 
 1. Return to App Builder. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++Draft a brief message I can send to the Zava Retail IT team explaining what this app does, how to log a new asset assignment, and how to check overdue items.+++
+    `Draft a brief message I can send to the Zava Retail IT team explaining what this app does, how to log a new asset assignment, and how to check overdue items.`
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p24.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p24.png)
 
 1. Copilot will generate a ready-to-send team briefing. Review the briefing and note any required edits.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p25.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p25.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p27.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p27.png)
   
 1. Copy the briefing and the direct app link — these are what you would share with the IT team in a real deployment.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p26.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p26.png)
 
 
 ## Summary

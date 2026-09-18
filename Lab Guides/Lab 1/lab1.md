@@ -49,40 +49,40 @@ Creating plans in the planner
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image1.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image1.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image2.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image2.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
 
 
 1. From the left navigation menu, select 3 **dots(…)** and then select **Planner**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
 
 1. Select **+Create a plan**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
 
 1. Select **Create basic plan**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
 
 1. Enter plan name as +++Zava Retail-Peak Season Readiness+++. Then select **Create basic plan**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
 
 1. Select **Add to new bucket** to add a new bucket in the recently created plan.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
 
 1. Enter bucket name as +++Store Operations+++ and press **Enter**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
 
     Your new bucket is add.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
 
 1. Similarly, add the following buckets:
 
@@ -101,13 +101,13 @@ Creating plans in the planner
 
     So select **+Add Task** and enter the task name from the above table. Then select **Add Task**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image11.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image11.png)
 
     After creating the task, select the task and then in the task window enter the given details.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image12.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image12.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image13.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image13.png)
 
 1. Similarly, add the tasks in the following buckets:
 
@@ -137,7 +137,7 @@ Creating plans in the planner
 
     So the final planner will look like this:
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image14.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image14.png)
 
     Now we are ready with the lab setup.
 
@@ -156,15 +156,15 @@ Access Microsoft 365 Copilot from your Microsoft 365 environment. This serves as
 
 1. Select **More agents**. Locate and select **Planner Agent** under Build by Microsoft.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image15.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image15.png)
 
 1. Select **Open** to open Planner Agent.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image16.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image16.png)
 
 1. Now Planner agent is ready to go.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
 
 
 ## Exercise 2 – Analyze the Peak Season Readiness Program
@@ -179,9 +179,9 @@ Regional leadership has requested an overview of the readiness program before th
 
 1. Enter the following prompt in the prompt field and select **Send** button:
 
-    +++Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"+++
+    `Summarize the tasks in my Planner plan "Zava Retail – Peak Season Readiness"`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
 
 1. Review the AI-generated summary.
 
@@ -191,11 +191,11 @@ Regional leadership has requested an overview of the readiness program before th
     - Remaining work
     - Overall readiness status
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image19.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image19.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image20.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image20.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image21.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image21.png)
 
 
 ### Task 2 – Review Current Activities
@@ -204,13 +204,13 @@ After understanding the overall project status, Priya wants to know which initia
 
 1. Enter the following prompt and click Send button:
 
-    +++Which tasks are currently in progress?+++
+    `Which tasks are currently in progress?`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
 
 1. Review the response.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image23.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image23.png)
 
 
 ### Task 3 – Review Completed Activities
@@ -219,15 +219,15 @@ Before discussing remaining work, Priya also wants to recognize milestones that 
 
 1. Enter the following prompt and click the Send button:
 
-    +++Which readiness activities have already been completed?+++
+    `Which readiness activities have already been completed?`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
 
 1. Review the completed tasks.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image25.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image25.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image26.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image26.png)
 
 
 ## Exercise 3 – Identify Priorities and Risks
@@ -240,21 +240,21 @@ With dozens of active tasks across multiple departments, it isn't always obvious
 
 1. Select **New Chat**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image27.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image27.png)
 
 1. Enter the following prompt and click the Send button:
 
-    +++Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.+++
+    `Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.`
   
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
 
 1. Review Planner Agent's recommendations.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image29.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image29.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image30.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image30.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image31.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image31.png)
 
 
 ### Task 2 – Identify Risks
@@ -263,17 +263,17 @@ Priya now wants to understand which activities could delay the Peak Season Readi
 
 1. Enter the following prompt and click the Send button:
 
-    +++Which tasks or activities could delay Peak Season Readiness, and are any of them overdue?+++
+    `Which tasks or activities could delay Peak Season Readiness, and are any of them overdue?`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image32.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image32.png)
 
 1. Review the identified risks. Notice how Planner Agent surfaces the overdue, high-priority tasks — Deep-Clean & Signage Refresh – Region West and Validate Store-Level Inventory Counts — and explains why they pose a risk to the timeline.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image33.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image33.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image34.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image34.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image35.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image35.png)
 
 
 ### Task 3 – Review Season Readiness
@@ -282,19 +282,19 @@ After reviewing priorities and risks, Priya needs to determine whether the organ
 
 1. Enter the following prompt and click the Send button:
 
-    +++Is the business ready for the start of peak season? Explain why or why not.+++
+    `Is the business ready for the start of peak season? Explain why or why not.`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image36.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image36.png)
 
 1. Review Planner Agent's assessment, including how it weighs the overdue tasks in its judgment.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image37.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image37.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image38.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image38.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image39.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image39.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image40.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image40.png)
 
 
 ## Exercise 4 – Generate Leadership Insights
@@ -309,21 +309,21 @@ Before discussing operational decisions, leadership needs a quick overview of th
 
 1. Select **New Chat**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image41.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image41.png)
 
 1. Enter the following prompt and click the Send button:
 
-    +++Review my Planner plan "Zava Retail – Peak Season Readiness" and summarize the current project status, including completed work, tasks in progress, remaining work, and any overdue activities.+++
+    `Review my Planner plan "Zava Retail – Peak Season Readiness" and summarize the current project status, including completed work, tasks in progress, remaining work, and any overdue activities.`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image42.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image42.png)
 
 1. Review the generated summary and verify that it accurately reflects the Planner plan by highlighting completed activities, ongoing work, remaining tasks, and overdue items. Notice how Planner Agent provides a concise project overview without requiring a manual review of every task.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image43.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image43.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image44.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image44.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image45.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image45.png)
 
 
 ### Task 2 – Recommend Next Steps
@@ -332,19 +332,19 @@ Leadership now wants to understand what actions should be taken to keep the proj
 
 1. Enter the following prompt and click the Send button:
 
-    +++Analyze my Planner tasks and recommend the next actions to keep the project on schedule.+++
+    `Analyze my Planner tasks and recommend the next actions to keep the project on schedule.`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image46.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image46.png)
 
 1. Review Planner Agent's recommendations and verify that they focus on overdue tasks, high-priority activities, and upcoming deadlines.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image47.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image47.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image48.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image48.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image49.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image49.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image50.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image50.png)
 
 
 ### Task 3 – Prepare a Leadership Update
@@ -363,15 +363,15 @@ To conclude the weekly readiness review, Priya needs a report she can share with
     • Recommended next steps
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image51.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image51.png)
 
 1. Review the generated leadership update and confirm that it summarizes the current state of the Planner plan in a clear, business-focused format suitable for sharing during an operational review meeting.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image52.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image52.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image53.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image53.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image54.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image54.png)
 
 
 ## Summary

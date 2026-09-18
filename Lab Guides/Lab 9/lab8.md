@@ -30,7 +30,7 @@ The RepairServiceAgent provides a unified interface for creating, updating, retr
 
 Declarative agents use the same infrastructure, orchestrator, foundation model, and security controls as Microsoft 365 Copilot, which ensures a consistent and familiar user experience.
 
-![Declarative agent architecture diagram. At the very basis there is the foundational model of Microsoft 365 Copilot, as well as the same orchestrator. The agent provides also custom knowledge and grounding data, and custom skills as actions, triggers, and workflows.. The user experience is available in Microsoft 365 Copilot.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image1.png)
+![Declarative agent architecture diagram. At the very basis there is the foundational model of Microsoft 365 Copilot, as well as the same orchestrator. The agent provides also custom knowledge and grounding data, and custom skills as actions, triggers, and workflows.. The user experience is available in Microsoft 365 Copilot.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image1.png)
 
 ### Significance of TypeSpec for Declarative Agents
 
@@ -62,95 +62,95 @@ In this task, you will build the **Declarative Agent** with **TypeSpec** definit
 
 1. Create a new folder named +++ServiceAgent+++ in your Desktop.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image5.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image5.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image6.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image6.png)
 
 1. Open Visual Studio Code. When the Foundry MCP pop-up appears, click **Allow**, then select **Work or School Account** and sign in using the following credentials:
 
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t1.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t1.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t2.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t2.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t3.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t3.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t4.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t4.png)
 
 
 1. Select **Yes** to Sign in to all apps and website on this device.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t5.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t5.png)
   
 1. Locate the **Microsoft 365 Agents Toolkit icon** from the menu on the left and select it. An activity bar will be open. Select the **Create a New Agent/App** button in the activity bar which will open the palette with a list of app templates available on Microsoft 365 Agents Toolkit.
   
-    ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image7.png)
+    ![m365atk-icon](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image7.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t6.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t6.png)
 
 1. Choose **Declarative Agent** from the list of templates.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t7.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t7.png)
 
 1. Next, select **Start with TypeSpec for Microsoft 365 Copilot** to define your agent using TypeSpec.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t8.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t8.png)
   
 1. Next, select **Browse** and then select the folder **ServiceAgent** from the Desktop. This is the location, where you want the agents toolkit to scaffold the agent project.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t9.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t9.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image12.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image12.png)
 
 1. Next, enter the application name as +++RepairServiceAgent+++ and select **Enter** to complete the process. You will get a new VS Code window with the agent project preloaded.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t10.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t10.png)
 
 1. Select **Yes, I trust the authors** option in the confirmation dialog.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t11.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t11.png)
 
     >[!Note] If you get the Foundry MCP pop-up again click **Allow** and then select your current username.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t12.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t12.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t13.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t13.png)
 
 1. You'll need to sign into the **Microsoft 365 Agents Toolkit** in order to upload and test your agent from within it.
 
 1. Within the project window, select the **Microsoft 365 Agents Toolkit icon** again from the left side menu. This will open the Agent Toolkit’s activity bar with sections like Accounts, Environment, Development etc.
 
-    ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image7.png)
+    ![m365atk-icon](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image7.png)
 
 1. Under **Accounts** section select **Sign in to Microsoft 365**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image14.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image14.png)
 
 1. This will open a dialog from the editor to sign in or create a Microsoft 365 developer sandbox or Cancel. Select **Sign in**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image15.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image15.png)
 
 1. Click **Allow** if you get a pop-up stating - Do you want to allow public and private networks to access this app?
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t14.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t14.png)
   
 1. Login with the following credentials:
 
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t15.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t15.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t16.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t16.png)
 
 
 1. Once signed in, **close** the browser and go back to the project window.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image18.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image18.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t17.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t17.png)
 
     >[!Note] If there is a message on Custom App Upload Disabled, safely ignore it.
 
@@ -169,7 +169,7 @@ You'll also find an **actions** folder containing template files - initially inc
 
 Additionally, there's a **prompts** folder housing the **instructions.tsp** file, which allows you to define detailed behavioral instructions and guidance for your agent.
 
-![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t18.png)
+![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t18.png)
 
 ### Update the Agent Metadata and Instructions
 
@@ -179,7 +179,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     - Basic **instructions** 2️⃣
     - Placeholder code for **actions** and **capabilities** (commented out) 3️⃣
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t19.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t19.png)
 
 
 1. Begin by defining your agent for the repair scenario. Replace the **@agent** metadata with below code snippet.
@@ -191,7 +191,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     )
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t20.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t20.png)
   
 1. Next, configure a conversation starter, the initial prompt that begins user-agent interaction. Uncomment the default template section and update the title and text fields to match the agent scenario.
 
@@ -206,7 +206,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
 
     This starter prompt needs to trigger a GET operation to retrieve all repairs from the service. To enable this behaviour in the agent, you' ll need to define the corresponding action. Proceed to the next step to do so.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t21.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t21.png)
 
 1. Next, go to **prompts/instructions.tsp** and update the instructions. Replace the entire code block in the file with below code:
 
@@ -219,7 +219,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     }
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t22.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t22.png)
 
 1. Save the changes to both files using **CTRL+S**.
 
@@ -228,9 +228,9 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
 
 1. Next, you will define the action for your agent by opening the **actions/github.tsp** file. Rename this file to +++actions.tsp+++.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t23.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t23.png)
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t24.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t24.png)
 
     You'll return to the **main.tsp** file later to complete the agent metadata with the action reference, but first, the action itself must be defined. For that open the file **actions.tsp**.
 
@@ -260,7 +260,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     const SERVER_URL = "https://repairshub.azurewebsites.net";
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t25.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t25.png)
 
 1. Next, replace the operation in the template code from searchIssues to **listRepairs** which is a repair operation to get the list of **repairs**. Replace the entire block of code starting just after the SERVER_URL definition and ending *before* the final closing braces with the snippet below. Be sure to leave the closing braces intact. (Line numbers should be 27 to 45)
   
@@ -274,7 +274,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     @get  op listRepairs(@query assignedTo?: string): string;
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t26.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t26.png)
 
 1. Now go back to **main.tsp** file and verify the import statement for actions. If it still references *./actions/github.tsp*, replace *import "./actions/github.tsp";* with the statement below:
   
@@ -282,7 +282,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
 
     >[!Note] If it is done automatically ignore this step.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t27.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t27.png)
 
 1. Next, in the same file, add the action you just defined into the agent. After the conversation starters replace the entire "RepairServiceAgent" namespace with below snippet:
 
@@ -294,7 +294,7 @@ Additionally, there's a **prompts** folder housing the **instructions.tsp** file
     }
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t28.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t28.png)
   
 1. Save the files using **CTRL+S**.
 
@@ -328,31 +328,31 @@ In this task, you will test the Repair Service Agent that you just created.
 
     >[!Alert] If you reach a ***Time-out Failure***, please re-start the provisioning cycle.
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t29.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t29.png)
 
 1. When you provision successfuly you will get the similar output.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t30.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t30.png)
 
 1. Open your web browser and navigate to +++https://m365.cloud.microsoft/chat+++ to open Copilot app and click on **Expand Navigation**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t31.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t31.png)
 
 1. Select the **RepairServiceAgent** from the list of **Agents** available in the Microsoft 365 Copilot interface. This will take a while, and you will be able to see a toaster message showing the progress of the task to provision.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t32.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t32.png)
 
 1. Select the conversation starter **List repairs** and send the prompt.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t33.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t33.png)
 
 1. If there is a popup that asks for the connection to the API, select **Allow**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t34.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t34.png)
 
 1. This initiates the conversation with your agent and you can see the response from the agent with the list of repairs.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t35.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t35.png)
 
 
 ## Exercise 2: Enhance Agent capabilities
@@ -434,7 +434,7 @@ In this task, you will modify the agent and add operations like **createRepair**
     }
     ```
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t36.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t36.png)
 
 1. Now, open **main.tsp** file and add these new operations into the agent's action. **Paste** the below snippet after the line **op listRepairs is global.RepairsAPI.listRepairs;** inside the **RepairServiceActions** namespace.
   
@@ -444,7 +444,7 @@ In this task, you will modify the agent and add operations like **createRepair**
     op deleteRepair is global.RepairsAPI.deleteRepair;
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t37.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t37.png)
 
 1. Also add a new conversation starter for creating a new repair item just after the first conversation start definition.
   
@@ -455,7 +455,7 @@ In this task, you will modify the agent and add operations like **createRepair**
     })
     ```
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t38.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t38.png)
 
 
 ### Task 2: Add adaptive card to function reference
@@ -512,15 +512,15 @@ In this task, you will enhance the reference cards or response cards using adapt
     }
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t39.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t39.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t40.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t40.png)
   
 1. Next, go back to **actions.tsp** file and locate the listRepairs operation. Just above the operation definition **@get op listRepairs(@query assignedTo?: string): string;**, paste the card definition using below snippet.
   
     `@card(#{  dataPath: "$", file: "adaptiveCards/repair.json",    properties: #{ title: "$.title", url: "$.image" } })`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t41.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t41.png)
   
     The above card response will be sent by the agent when you ask about a repair item or when agent brings a list of items as its reference.
 
@@ -528,7 +528,7 @@ In this task, you will enhance the reference cards or response cards using adapt
   
     `@card(#{  dataPath: "$", file: "adaptiveCards/repair.json",    properties: #{ title: "$.title", url: "$.image" } })`
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t42.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t42.png)
 
 
 ### Task 3: Update agent instruction for new operations
@@ -548,7 +548,7 @@ In this task, you will enhance the reference cards or response cards using adapt
     """;
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t43.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t43.png)
 
 
 ### Task 4: Provision and Test the Agent
@@ -559,73 +559,73 @@ In this task, you will take the updated agent who is also now a repairs analyst 
 
 1. In the activity bar of the toolkit under **LifeCycle,** select **Provision** to package and upload the newly updated agent for testing.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t44.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t44.png)
   
 1. Ensure that the provisioning gets succeeded.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t45.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t45.png)
   
     >[!Alert] There are couple of known issues where the Provision action in Agents Toolkit may fail with the errors shown below. If this happens, simply retry the provisioning process until it succeeds.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image50.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image50.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image51.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image51.png)
 
 1. Open web browser and navigate to +++https://dev.teams.microsoft.com+++/ and select **Apps** from left-hand navigation menu to verify that **RepairServiceAgentdev** is persent under Apps.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t46.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t46.png)
   
 1. Go back to the **M365 copilot page** and do a **refresh** to view the changes.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t47.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t47.png)
 
 1. In the **RepairServiceAgent**, start by using the conversation starter **Create repair**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t48.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t48.png)
   
 1. Replace the **“\[TO REPLACE\]”** with +++rear camera issue+++ and assign it to me.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t49.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t49.png)
 
 1. The confirmation dialog if you notice has more metadata that what you sent, thanks to the new instructions. Proceed to add the item by **confirming** the dialog.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t50.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t50.png)
 
 1. Review the output.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t51.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t51.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t52.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t52.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t53.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t53.png)
 
 1. Next, you will test the new analytical capability of your agent. Open a new chat by selecting the **New chat** button on the top right corner of your agent.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t54.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t54.png)
 
 1. Next, copy the prompt below and paste it to the message box and hit enter to send it.
   
     `Classify repair items based on title into three distinct categories: Routine Maintenance, Critical, and Low Priority. Then, generate a chart displaying the percentage representation of each category.`
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t55.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t55.png)
 
 1. You should get some response similar to below screen. It may vary sometimes.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t56.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t56.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/t57.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/t57.png)
 
 1. Open the link +++https://dev.teams.microsoft.com+++/
 
 1. Select **Apps** from the left pane.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image59.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image59.png)
 
 1. You will find the **RepairServiceAgent** under Apps.
 
 1. Scroll to the right, click on the **3 dots** and select **Delete**. This needs to be done in order to provision another agent. Since you will be creating another agent in the next lab, this step needs to be done.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/main/Lab%20Guides/Lab%2011/media/image60.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image60.png)
 
 
 ## Summary:

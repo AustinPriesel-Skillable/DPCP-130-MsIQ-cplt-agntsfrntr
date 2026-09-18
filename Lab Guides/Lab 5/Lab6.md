@@ -59,25 +59,25 @@ In this exercise, you will sign in to Microsoft 365 Copilot Chat as Priya Nair a
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image1.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image1.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image2.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image2.png)
 
 
 1. When prompted to stay signed in, select Yes.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image3.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image3.png)
 
 
 ### Task 2 – Create the Agent
 
 1. From the left navigation menu, select **New agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image4.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image4.png)
 
 1. Select **skip to configure**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image5.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image5.png)
 
 1. Enter the agent's identity:
 
@@ -139,33 +139,33 @@ In this exercise, you will sign in to Microsoft 365 Copilot Chat as Priya Nair a
       paragraphs).
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image6.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image6.png)
 
 
 ### Task 3 – Add knowledge Source
 
 1. Move to the Knowledge section and upload the files present at
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image7.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image7.png)
 
 
 ### Task 4 – Enable Capabilities
 
 1. Scroll down and navigate to the **Capabilities** section. Make sure the **Create images** capability is enabled.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image8.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image8.png)
 
 1. Click **Create** to publish the agent.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image9.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image9.png)
 
 1. Select **Go to agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image10.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image10.png)
 
     Now the agent is ready to use.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image11.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image11.png)
 
 
 ## Exercise 2: Build the Summer Clearance Campaign Brief
@@ -176,7 +176,7 @@ David Kim has asked Priya for a complete campaign plan for the Summer Clearance 
 
 1. Open a chat with the Zava Retail Marketing Operations Advisor.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image11.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image11.png)
 
 1. Enter the following prompt, then select **Send**:
 
@@ -187,33 +187,33 @@ David Kim has asked Priya for a complete campaign plan for the Summer Clearance 
     reflects the offer and Zava Retail's brand voice.
     ```
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image12.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image12.png)
 
 1. Confirm the Creative Assets section includes a promotional banner concept, and that an image has been generated if Image Generation is enabled.
 
-    ![A screenshot of a advertisement AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image13.png)
+    ![A screenshot of a advertisement AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image13.png)
 
     >[!Note] Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 1. Review the response and confirm it includes all nine required sections: Campaign Objective, Target Audience, Key Messaging, Channels, Timeline, KPIs, Risks and Assumptions, Executive Summary, and Creative Assets.
 
-    ![A screenshot of a campaign objective AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image14.png)
+    ![A screenshot of a campaign objective AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image14.png)
 
-    ![A close-up of a website AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image15.png)
+    ![A close-up of a website AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image15.png)
 
-    ![A screenshot of a email AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image16.png)
+    ![A screenshot of a email AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image16.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image17.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image17.png)
 
-    ![A screenshot of a white page AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image18.png)
+    ![A screenshot of a white page AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image18.png)
 
-    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image19.png)
+    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image19.png)
 
-    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image20.png)
+    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image20.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image21.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image21.png)
 
-    ![A screenshot of a web page AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image22.png)
+    ![A screenshot of a web page AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image22.png)
 
     >[!Note] Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
@@ -235,17 +235,17 @@ Sam Osei's creative team needs a running start across every channel, not just th
     
     ```
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image23.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image23.png)
 
 1. Review each of the seven channel outputs and confirm they are adapted to the channel.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image24.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image24.png)
 
-    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image25.png)
+    ![A screenshot of a computer screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image25.png)
 
-    ![A screenshot of a web page AI-generated content may be incorrect.](./media/image26.png)
+    ![A screenshot of a web page AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image26.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image27.png)![A screenshot of a email campaign AI-generated content may be
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image27.png)![A screenshot of a email campaign AI-generated content may be
 
     incorrect.](./media/image28.png)
 
@@ -254,13 +254,13 @@ Sam Osei's creative team needs a running start across every channel, not just th
 
 1. Enter the following prompt, then select Send:
 
-    +++Generate a promotional image for the Instagram post that matches the Summer Clearance campaign's messaging and Zava Retail's brand voice.+++
+    `Generate a promotional image for the Instagram post that matches the Summer Clearance campaign's messaging and Zava Retail's brand voice.`
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image29.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image29.png)
 
 1. Confirm that an image is generated and visually consistent with the campaign messaging.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image30.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image30.png)
 
 
 ## Exercise 4: Refine the Campaign for Loyalty Members
@@ -271,9 +271,9 @@ David Kim has a follow-up request: loyalty program members shouldn't receive the
 
 1. In the same conversation, enter the following prompt, then select Send:
 
-    +++Refine this campaign for loyalty program members, with a more premium brand feel. Preserve the original campaign objective and KPIs, but adjust messaging, tone, and offer framing accordingly.+++
+    `Refine this campaign for loyalty program members, with a more premium brand feel. Preserve the original campaign objective and KPIs, but adjust messaging, tone, and offer framing accordingly.`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image31.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image31.png)
 
 1. Review the response and confirm it explicitly states:
 
@@ -285,11 +285,11 @@ David Kim has a follow-up request: loyalty program members shouldn't receive the
 
 1. Confirm the tone reads as more premium — word choice, pacing, and framing should feel distinct from the original mass-market version.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image32.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image32.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image33.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image34.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image34.png)
 
 
 ## Exercise 5: Adapt the Campaign for Regional Stores
@@ -307,7 +307,7 @@ Zava Retail's regional store directors have flagged that a single national messa
     while keeping the core campaign objective identical.
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image35.png)
+    ![](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image35.png)
 
 1. Review each of the four versions and confirm:
 
@@ -319,13 +319,13 @@ Zava Retail's regional store directors have flagged that a single national messa
 
     - There are no contradictory claims between versions
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image36.png)
 
-    ![A screenshot of a web page AI-generated content may be incorrect.](./media/image37.png)
+    ![A screenshot of a web page AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image37.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image38.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image38.png)
 
-    ![A screenshot of a white screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image39.png)
+    ![A screenshot of a white screen AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image39.png)
 
 
 ## Exercise 7: Prepare the Executive Approval Package
@@ -346,7 +346,7 @@ David Kim has one rule for Friday's leadership review: every campaign pitch must
     - Approval checklist
     ```
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image40.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image40.png)
 
 1. Review the response, it must cover the following points:
 
@@ -364,11 +364,11 @@ David Kim has one rule for Friday's leadership review: every campaign pitch must
     - Approval Checklist: actionable items (e.g., Legal review, Brand
     review, Budget sign-off, Channel scheduling confirmed)
 
-    ![A screenshot of a white and black page AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image41.png)
+    ![A screenshot of a white and black page AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image41.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image42.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image42.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image43.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/AustinPriesel-Skillable/DPCP-130-MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image43.png)
 
 
 ## Summary
