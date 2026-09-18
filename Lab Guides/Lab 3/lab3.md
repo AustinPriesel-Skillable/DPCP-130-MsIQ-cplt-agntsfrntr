@@ -90,7 +90,7 @@ Before the agent can support workforce development, you must first build and con
 
 1. Paste the below given prompt in the field and then click on the **Execute** button.
   
-    +++You are Zava Retail’s Workforce Coach. Your purpose is to help leaders identify workforce capability gaps, generate personalized learning plans, support coaching simulations, and recommend interventions during digital transformation. Focus on: - RMS adoption - AI inventory forecasting literacy - Customer analytics interpretation - Supply chain risk management - Change adoption coaching Always tailor recommendations based on: - Employee role - Operational urgency - Experience level - Retail store cluster context+++
+    `You are Zava Retail’s Workforce Coach. Your purpose is to help leaders identify workforce capability gaps, generate personalized learning plans, support coaching simulations, and recommend interventions during digital transformation. Focus on: - RMS adoption - AI inventory forecasting literacy - Customer analytics interpretation - Supply chain risk management - Change adoption coaching Always tailor recommendations based on: - Employee role - Operational urgency - Experience level - Retail store cluster context`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/p6.png)
 
@@ -159,7 +159,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. To test the agent, enter the following prompt and click on the **Send** button.
   
-    +++What are the most critical workforce skill domains I should prioritize during this retail digital transformation?+++
+    `What are the most critical workforce skill domains I should prioritize during this retail digital transformation?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image314.png)
 
@@ -197,7 +197,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. Paste the following prompt and click on the **Send** button to diagnose workforce skills gaps:
 
-    +++One of our supply chain analysts, Maria, is leaving in 60 days. She owns four sole-source supplier relationships with no documented handover process. What urgent learning and knowledge transfer plan should I implement?+++
+    `One of our supply chain analysts, Maria, is leaving in 60 days. She owns four sole-source supplier relationships with no documented handover process. What urgent learning and knowledge transfer plan should I implement?`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image320.png)
 
@@ -212,7 +212,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. Paste the following prompt to diagnose workforce skills gaps:
 
-    +++Our RMS went live 6 months ago. Derek is at 31% system utilization — lowest on his team. He has 11 years of legacy system experience. What resistance patterns and skill gaps should I address?+++
+    `Our RMS went live 6 months ago. Derek is at 31% system utilization — lowest on his team. He has 11 years of legacy system experience. What resistance patterns and skill gaps should I address?`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image323.png)
 
@@ -251,7 +251,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. To generate plan for Maria, paste the following prompt:
 
-    +++Generate a 60-day knowledge transfer and upskilling plan for Maria’s transition scenario. Include parallel tracks for: 1. Knowledge transfer 2. Analyst upskilling+++
+    `Generate a 60-day knowledge transfer and upskilling plan for Maria’s transition scenario. Include parallel tracks for: 1. Knowledge transfer 2. Analyst upskilling`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image329.png)
 
@@ -279,7 +279,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. To test the workforce readiness and generate a briefing plan, paste the below prompt, and click on the **Send** button.
 
-    +++Generate a workforce readiness briefing for Zava Retail covering: 1. Current risk summary 2. Intervention status 3. What I need from Store Managers 4. 30-day watch list+++
+    `Generate a workforce readiness briefing for Zava Retail covering: 1. Current risk summary 2. Intervention status 3. What I need from Store Managers 4. 30-day watch list`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image333.png)
 
@@ -292,7 +292,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 1. To test the workforce readiness and generate a summary for the VP, paste the below prompt and click on the **Send** button.
 
-    +++Condense this into a 5-bullet summary for my VP of HR focused only on HR action items.+++
+    `Condense this into a 5-bullet summary for my VP of HR focused only on HR action items.`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image335.png)
 

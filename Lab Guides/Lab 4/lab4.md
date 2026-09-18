@@ -95,7 +95,7 @@ App Builder works like a conversation. You describe the app you need in plain la
 
 1. In the App Builder conversation input on the left, paste the below prompt and click on the **Send** button.
 
-    +++Add a section to the dashboard that highlights overdue asset requests — items that have been in Pending Collection status for more than 7 days. Show the employee's name, asset type, and how many days are overdue.+++
+    `Add a section to the dashboard that highlights overdue asset requests — items that have been in Pending Collection status for more than 7 days. Show the employee's name, asset type, and how many days are overdue.`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p7.png)
 
@@ -108,7 +108,7 @@ App Builder works like a conversation. You describe the app you need in plain la
 
 1. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++In the Tasks section, add priority indicators — High, Medium, and Low — for each task. Also add a Due This Week view that filters to show only tasks due within the next 7 days+++
+    `In the Tasks section, add priority indicators — High, Medium, and Low — for each task. Also add a Due This Week view that filters to show only tasks due within the next 7 days`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p9.png)
 
@@ -128,7 +128,7 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++In the Employees section, add a column showing each employee's asset setup status — either Complete or In Progress. Also add a filter so the IT team can view only employees with In Progress status who may need follow-up.+++
+    `In the Employees section, add a column showing each employee's asset setup status — either Complete or In Progress. Also add a filter so the IT team can view only employees with In Progress status who may need follow-up.`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p11.png)
 
@@ -219,7 +219,7 @@ The IT team needs to see not just a list of employees, but a clear record of wha
 
 1. Return to App Builder. In the conversation input, paste the following prompt and click on **Send** button.
 
-    +++Draft a brief message I can send to the Zava Retail IT team explaining what this app does, how to log a new asset assignment, and how to check overdue items.+++
+    `Draft a brief message I can send to the Zava Retail IT team explaining what this app does, how to log a new asset assignment, and how to check overdue items.`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/p24.png)
 
