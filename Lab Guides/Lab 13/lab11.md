@@ -499,11 +499,11 @@ In this exercise, you will deploy a model in the Microsoft Foundry to use it in 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2013/media/v42.png)
   
-1. Select **o3** and select **Confirm**.
+1. Select **gpt-6-sol** and select **Confirm**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2013/media/ee2.png)
   
-1. In the Deploy o3 dialog, enter the **Deployment name** as +++ModelforMCS+++, accept the other defaults and select **Deploy.**
+1. In the Deploy gpt-6-sol dialog, enter the **Deployment name** as +++ModelforMCS+++, accept the other defaults and select **Deploy.**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2013/media/ee3.png)
 
@@ -539,7 +539,7 @@ In this exercise, you will learn how to bring the deployed model from Microsoft 
 1. Enter the below details and click on **Connect**.
 
     - Model deployment name - +++ModelforMCS+++
-    - Base model name - +++o3+++
+    - Base model name - +++gpt-6-sol+++
     - Azure model endpoint URL - Enter the target url saved earlier
     - API Key - Enter the model API key saved earlier.
 
