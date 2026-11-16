@@ -1,4 +1,4 @@
-# Lab 6 - Improve communication and work coordination across Zava Retail stores with a Frontline Agent
+# Lab 5 - Improve communication and work coordination across Zava Retail stores with a Frontline Agent
 
 **Estimated Duration:** 40 minutes
 
