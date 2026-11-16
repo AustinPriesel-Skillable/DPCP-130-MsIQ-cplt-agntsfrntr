@@ -1,4 +1,4 @@
-# Lab 14 - Orchestrating multi-agent AI for retail using Copilot Studio, Microsoft Foundry, and Fabric
+# Lab 13 - Orchestrating multi-agent AI for retail using Copilot Studio, Microsoft Foundry, and Fabric
 
 ### Estimated Duration: 60 Minutes
 
