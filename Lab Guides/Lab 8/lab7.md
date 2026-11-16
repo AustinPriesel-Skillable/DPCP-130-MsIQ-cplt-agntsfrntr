@@ -1,4 +1,4 @@
-# Lab 8 - Optimize financial analysis and reporting for Zava Retail finance operations with Microsoft Copilot
+# Lab 7 - Optimize financial analysis and reporting for Zava Retail finance operations with Microsoft Copilot
 
 **Estimated Duration:** 40 minutes
 
