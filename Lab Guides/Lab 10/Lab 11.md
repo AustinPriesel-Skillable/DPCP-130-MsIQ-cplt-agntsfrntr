@@ -1,4 +1,4 @@
-# Lab 10: Build and Deploy a Project Management Assistant with the Microsoft Teams SDK
+# Lab 9: Build and Deploy a Project Management Assistant with the Microsoft Teams SDK
 
 **Duration:** 50 minutes
 
