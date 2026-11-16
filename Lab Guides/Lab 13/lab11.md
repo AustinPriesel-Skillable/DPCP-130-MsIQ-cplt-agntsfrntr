@@ -1,4 +1,4 @@
-# Lab 13 - Modernize Customer Support at Zava Retail with an AI-Powered Product Knowledge Agent using Azure AI Search and Foundry Models
+# Lab 12 - Modernize Customer Support at Zava Retail with an AI-Powered Product Knowledge Agent using Azure AI Search and Foundry Models
 
 **Estimated duration** - 60 minutes
 
