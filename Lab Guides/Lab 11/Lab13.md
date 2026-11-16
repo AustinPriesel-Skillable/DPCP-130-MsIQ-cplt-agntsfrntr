@@ -1,4 +1,4 @@
-# Lab 11: Build a Healthcare Agent to Automate Patient Appointments
+# Lab 10: Build a Healthcare Agent to Automate Patient Appointments
 
 ### Estimated Duration: 100 Minutes
 
