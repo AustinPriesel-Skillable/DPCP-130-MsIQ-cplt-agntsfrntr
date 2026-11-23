@@ -246,7 +246,7 @@ With dozens of active tasks across multiple departments, it isn't always obvious
 
     `Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.`
   
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
+    ![](./media/imagee4.png)
 
 3. Review Planner Agent's recommendations.
 
