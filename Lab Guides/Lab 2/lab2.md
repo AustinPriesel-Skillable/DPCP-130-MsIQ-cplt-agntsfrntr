@@ -43,7 +43,7 @@ The operations head at Zava Retail oversees campaign readiness, aligns cross-fun
 
 Patricia logs into Copilot to review Festive Campaign readiness.
 
-1. Navigate to +++https://m365copilot.com/+++ Microsoft 365 copilot page.
+1. Navigate to +++https://m365copilot.com/+++ Microsoft copilot page.
 
 2. Enter the +++Username+++ - +++@lab.CloudPortalCredential(User1).Username+++ in the field and then click on the **Next** button to proceed.
 
@@ -354,7 +354,7 @@ Use the Researcher Agent to help communicate findings to your team. Patricia nee
 
 ## Summary
 
-In this lab, you explored how the Researcher Agent in Microsoft 365 Copilot helps transform scattered organizational data into actionable insights and high-quality outputs. Instead of manually searching across emails, documents, and chats, you used natural language prompts to gather, analyze, and refine information efficiently.
+In this lab, you explored how the Researcher Agent in Microsoft Copilot helps transform scattered organizational data into actionable insights and high-quality outputs. Instead of manually searching across emails, documents, and chats, you used natural language prompts to gather, analyze, and refine information efficiently.
 
 In the Zava Retail scenario, you used the agent to gather updates, generate summaries, identify risks, and create reports—giving leadership a clear view of campaign readiness.
 
