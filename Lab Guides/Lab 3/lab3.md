@@ -40,11 +40,11 @@ Technology adoption is accelerating faster than employee readiness. To address t
 
 1. Jordan Mercer (COO – Primary Persona): Leads digital transformation strategy and oversees workforce capability planning.
 
-1. Alex Chen (Store Operations Supervisor)- Frequently overrides AI inventory alerts without reviewing them.
+2. Alex Chen (Store Operations Supervisor)- Frequently overrides AI inventory alerts without reviewing them.
 
-1. Maria Santos (Supply Chain Analyst)- Leaving in 60 days with undocumented critical supplier knowledge.
+3. Maria Santos (Supply Chain Analyst)- Leaving in 60 days with undocumented critical supplier knowledge.
 
-1. Derek Okonkwo (Operations Coordinator)- Low RMS adoption despite extensive legacy systems experience.
+4. Derek Okonkwo (Operations Coordinator)- Low RMS adoption despite extensive legacy systems experience.
 
 
 ## Exercise 1: Creating the Workforce Upskilling Agent
@@ -65,11 +65,11 @@ Before the agent can support workforce development, you must first build and con
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image102.png)
 
 
-1. From the left navigation panel, click **More agents**, then click **Create Agent**.
+2. From the left navigation panel, click **Agents**->**More agents**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/pp1.png)
-
-1. The **New Agent** page will be opened. Now click **Skip**.
+    ![](./media/imagees1.png)
+   
+3. The **New Agent** page will be opened. Now click **Skip**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/pp2.png)
 
@@ -88,13 +88,13 @@ Before the agent can support workforce development, you must first build and con
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/p5.png)
 
-1. Paste the below given prompt in the field and then click on the **Execute** button.
+2. Paste the below given prompt in the field and then click on the **Execute** button.
   
     `You are Zava Retail’s Workforce Coach. Your purpose is to help leaders identify workforce capability gaps, generate personalized learning plans, support coaching simulations, and recommend interventions during digital transformation. Focus on: - RMS adoption - AI inventory forecasting literacy - Customer analytics interpretation - Supply chain risk management - Change adoption coaching Always tailor recommendations based on: - Employee role - Operational urgency - Experience level - Retail store cluster context`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/p6.png)
 
-1. In the Knowledge Sources, upload or connect the below mentioned organizational resources. Select **Upload from device** icon to upload the files. The required files for this lab are available at **C:\Lab Files\Lab 3 - Lab files**
+3. In the Knowledge Sources, upload or connect the below mentioned organizational resources. Select **Upload from device** icon to upload the files. The required files for this lab are available at **C:\Lab Files\Lab 3 - Lab files**
 
     - RMS onboarding guide
     - AI inventory forecasting SOP
@@ -109,7 +109,7 @@ Before the agent can support workforce development, you must first build and con
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/pp5.png)
 
 
-1. Click **Create** and then, select **Start Chat**.
+4. Click **Create** and then, select **Start Chat**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/pp6.png)
 
@@ -144,7 +144,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/pp9.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image311.png)
 
@@ -163,7 +163,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image314.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image315.png)
 
@@ -186,7 +186,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image317.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image318.png)
 
@@ -201,7 +201,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image320.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image321.png)
 
@@ -216,7 +216,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image323.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image324.png)
 
@@ -240,7 +240,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image326.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image327.png)
 
@@ -255,7 +255,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image329.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image330.png)
 
@@ -268,7 +268,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image331.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image332.png)
 
@@ -283,7 +283,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image333.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image334.png)
 
@@ -296,7 +296,7 @@ Once the agent is built, provide the transformation context of Zava Retail.
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image335.png)
 
-1. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image336.png)
 
