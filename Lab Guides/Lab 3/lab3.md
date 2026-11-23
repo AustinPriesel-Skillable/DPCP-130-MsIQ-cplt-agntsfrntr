@@ -1,10 +1,10 @@
-# Lab 3-Build the Zava Retail workforce upskilling Learning Agent with Microsoft 365 Copilot
+# Lab 3-Build the Zava Retail workforce upskilling Learning Agent with Microsoft Copilot
 
 **Estimated Duration:** 30 minutes
 
 ## Lab objectives
 
-In this lab, you will explore how to build a Workforce Upskilling Agent using Microsoft 365 Copilot Agent Builder. You will learn how to configure the agent aligned to workforce transformation goals, ground it in organizational context using Work IQ principles, and enrich it with enterprise knowledge sources. By the end of this lab, you will be able to:
+In this lab, you will explore how to build a Workforce Upskilling Agent using Microsoft Copilot Agent Builder. You will learn how to configure the agent aligned to workforce transformation goals, ground it in organizational context using Work IQ principles, and enrich it with enterprise knowledge sources. By the end of this lab, you will be able to:
 - Build a custom Workforce Upskilling Agent using Microsoft 365 Copilot
   Agent Builder
 
@@ -49,11 +49,11 @@ Technology adoption is accelerating faster than employee readiness. To address t
 
 ## Exercise 1: Creating the Workforce Upskilling Agent
 
-Before the agent can support workforce development, you must first build and configure it inside Microsoft 365 Copilot.
+Before the agent can support workforce development, you must first build and configure it inside Microsoft Copilot.
 
 ### Task 1: Open Agent Builder
 
-1. Navigate to +++https://m365copilot.com/+++ to open Microsoft 365 copilot page. Sign in with your credentials.
+1. Navigate to +++https://m365copilot.com/+++ to open Microsoft copilot page. Sign in with your credentials.
 
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
@@ -65,7 +65,7 @@ Before the agent can support workforce development, you must first build and con
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image102.png)
 
 
-2. From the left navigation panel, click **Agents**->**More agents**.
+2. From the left navigation panel, click **Agents**->**New agents**.
 
     ![](./media/imagees1.png)
    
@@ -303,4 +303,4 @@ Once the agent is built, provide the transformation context of Zava Retail.
 
 ## Summary
 
-In this lab, you built a custom Workforce Upskilling Agent in Microsoft 365 Copilot designed to support retail workforce transformation. You configured the agent’s behavior to align with workforce development goals, grounded it in organizational context for more relevant and accurate responses, and used operational signals to diagnose workforce skill gaps. The lab also guided you through generating personalized learning plans tailored to employee needs, refining agent responses through prompt engineering for improved effectiveness, and producing workforce readiness briefings to support decision-making and training strategy.
+In this lab, you built a custom Workforce Upskilling Agent in Microsoft Copilot designed to support retail workforce transformation. You configured the agent’s behavior to align with workforce development goals, grounded it in organizational context for more relevant and accurate responses, and used operational signals to diagnose workforce skill gaps. The lab also guided you through generating personalized learning plans tailored to employee needs, refining agent responses through prompt engineering for improved effectiveness, and producing workforce readiness briefings to support decision-making and training strategy.
