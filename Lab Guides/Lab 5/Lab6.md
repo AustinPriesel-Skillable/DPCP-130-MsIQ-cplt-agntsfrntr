@@ -10,11 +10,11 @@ Every campaign brief looks different depending on who wrote it. Creative assets 
 
 As Marketing Operations Lead, Priya Nair is responsible for how campaigns move from idea to execution to executive sign-off. With a Summer Clearance campaign due for leadership approval by the end of the week, Priya needs a faster, more consistent way to plan the campaign, produce channel-ready assets, adapt it for different audiences and regions, and package it for executive review.
 
-To solve this, Zava Retail has adopted Microsoft 365 Copilot Chat. Priya will build a reusable custom agent — the Zava Retail Marketing Operations Advisor — that plans campaigns to a consistent enterprise structure, generates creative assets, adapts content for different audiences and channels, and prepares executive-ready summaries.
+To solve this, Zava Retail has adopted Microsoft Copilot Chat. Priya will build a reusable custom agent — the Zava Retail Marketing Operations Advisor — that plans campaigns to a consistent enterprise structure, generates creative assets, adapts content for different audiences and channels, and prepares executive-ready summaries.
 
 ### Objectives
 
-During this lab, you will use Microsoft 365 Copilot Chat to:
+During this lab, you will use Microsoft Copilot Chat to:
 - Create a custom Copilot agent — build a dedicated marketing operations
   assistant from scratch with a defined name and purpose.
 
@@ -50,11 +50,11 @@ During this lab, you will use Microsoft 365 Copilot Chat to:
 
 In this exercise, you will sign in to Microsoft 365 Copilot Chat as Priya Nair and create a new custom agent from scratch. This exercise gets your environment ready for the rest of the lab.
 
-### Task 1 – Sign In to Microsoft 365 Copilot Chat
+### Task 1 – Sign In to Microsoft Copilot
 
 1. Open a web browser and navigate to +++https://m365.cloud.microsoft/chat/+++.
 
-1. Sign in with your Microsoft 365 Copilot account credentials.
+2. Sign in with your Microsoft Copilot account credentials.
 
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
@@ -64,22 +64,21 @@ In this exercise, you will sign in to Microsoft 365 Copilot Chat as Priya Nair a
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image2.png)
 
 
-1. When prompted to stay signed in, select Yes.
+3. When prompted to stay signed in, select Yes.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image3.png)
 
 
 ### Task 2 – Create the Agent
 
-1. From the left navigation menu, select **New agent**.
+1. From the left navigation menu, select **Agents**->**New Agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image4.png)
+   ![](./media/imagees1.png)
 
-1. Select **skip to configure**.
+2. Select **Skip**.
+  ![](./media/imagees2.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image5.png)
-
-1. Enter the agent's identity:
+3. Enter the agent's identity:
 
     - Name: Campaign Planning Assistant
     - Description: Enterprise AI assistant for planning and executing
@@ -139,30 +138,23 @@ In this exercise, you will sign in to Microsoft 365 Copilot Chat as Priya Nair a
       paragraphs).
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image6.png)
+    ![](./media/imagees3.png)
 
 
-### Task 3 – Add knowledge Source
+### Task 3 – Add Knowledge Source
 
-1. Move to the Knowledge section and upload the files present at
+1. Move to the Knowledge section and upload the files present at C:\Labfiles\marketingAgent
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image7.png)
+    ![](./media/imagees4.png)
 
+2. Click **Create** to publish the agent.
 
-### Task 4 – Enable Capabilities
+    ![](./media/imagees5.png)
 
-1. Scroll down and navigate to the **Capabilities** section. Make sure the **Create images** capability is enabled.
+3. Select **Start chat**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image8.png)
-
-1. Click **Create** to publish the agent.
-
-    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image9.png)
-
-1. Select **Go to agent**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image10.png)
-
+    ![](./media/imagees6.png)
+   
     Now the agent is ready to use.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image11.png)
@@ -178,7 +170,7 @@ David Kim has asked Priya for a complete campaign plan for the Summer Clearance 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image11.png)
 
-1. Enter the following prompt, then select **Send**:
+2. Enter the following prompt, then select **Send**:
 
     ```
     Create a complete Summer Clearance campaign (up to 50% off apparel)
@@ -189,13 +181,13 @@ David Kim has asked Priya for a complete campaign plan for the Summer Clearance 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image12.png)
 
-1. Confirm the Creative Assets section includes a promotional banner concept, and that an image has been generated if Image Generation is enabled.
+3. Confirm the Creative Assets section includes a promotional banner concept, and that an image has been generated if Image Generation is enabled.
 
     ![A screenshot of a advertisement AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image13.png)
 
     >[!Note] Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
-1. Review the response and confirm it includes all nine required sections: Campaign Objective, Target Audience, Key Messaging, Channels, Timeline, KPIs, Risks and Assumptions, Executive Summary, and Creative Assets.
+4. Review the response and confirm it includes all nine required sections: Campaign Objective, Target Audience, Key Messaging, Channels, Timeline, KPIs, Risks and Assumptions, Executive Summary, and Creative Assets.
 
     ![A screenshot of a campaign objective AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image14.png)
 
@@ -237,7 +229,7 @@ Sam Osei's creative team needs a running start across every channel, not just th
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image23.png)
 
-1. Review each of the seven channel outputs and confirm they are adapted to the channel.
+2. Review each of the seven channel outputs and confirm they are adapted to the channel.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image24.png)
 
@@ -258,7 +250,7 @@ Sam Osei's creative team needs a running start across every channel, not just th
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image29.png)
 
-1. Confirm that an image is generated and visually consistent with the campaign messaging.
+2. Confirm that an image is generated and visually consistent with the campaign messaging.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image30.png)
 
@@ -275,7 +267,7 @@ David Kim has a follow-up request: loyalty program members shouldn't receive the
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image31.png)
 
-1. Review the response and confirm it explicitly states:
+2. Review the response and confirm it explicitly states:
 
     - What changed (e.g., messaging shifted from “clearance” to “exclusive
     loyalty access”)
@@ -283,7 +275,7 @@ David Kim has a follow-up request: loyalty program members shouldn't receive the
     - What was preserved (objective, KPIs, timeline)
 
 
-1. Confirm the tone reads as more premium — word choice, pacing, and framing should feel distinct from the original mass-market version.
+3. Confirm the tone reads as more premium — word choice, pacing, and framing should feel distinct from the original mass-market version.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image32.png)
 
@@ -309,7 +301,7 @@ Zava Retail's regional store directors have flagged that a single national messa
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image35.png)
 
-1. Review each of the four versions and confirm:
+2. Review each of the four versions and confirm:
 
     - Each has a distinct regional angle (e.g., Urban emphasizes foot
     traffic and digital signage; Rural emphasizes SMS and local relevance)
@@ -348,7 +340,7 @@ David Kim has one rule for Friday's leadership review: every campaign pitch must
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image40.png)
 
-1. Review the response, it must cover the following points:
+2. Review the response, it must cover the following points:
 
     - Executive Summary: 3–5 sentence overview for a VP-level decision-maker
     - Expected Business Impact: quantified or directional impact (revenue,
@@ -373,10 +365,10 @@ David Kim has one rule for Friday's leadership review: every campaign pitch must
 
 ## Summary
 
-In this lab, you used Microsoft 365 Copilot Chat to build a custom marketing operations agent for Zava Retail — configuring enterprise instructions that enforce a consistent campaign structure, generating a full campaign brief and multi-channel creative assets, refining the campaign for a premium loyalty audience, adapting it across four store regions, and packaging it for executive approval, before publishing it for the wider marketing team.
+In this lab, you used Microsoft Copilot to build a custom marketing operations agent for Zava Retail — configuring enterprise instructions that enforce a consistent campaign structure, generating a full campaign brief and multi-channel creative assets, refining the campaign for a premium loyalty audience, adapting it across four store regions, and packaging it for executive approval, before publishing it for the wider marketing team.
 
 By the end of this lab, you should be able to:
-- Create a custom Microsoft 365 Copilot Chat agent and configure
+- Create a custom Microsoft Copilot agent and configure
   enterprise-grade instructions
 
 - Generate a structured campaign brief and creative assets, including
