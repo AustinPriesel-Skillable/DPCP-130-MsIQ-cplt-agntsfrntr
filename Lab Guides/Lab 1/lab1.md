@@ -164,7 +164,7 @@ Access Microsoft 365 Copilot from your Microsoft 365 environment. This serves as
 
 4. Now Planner agent is ready to go.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
+    ![](./media/imagee3.png)
 
 
 ## Exercise 2 – Analyze the Peak Season Readiness Program
