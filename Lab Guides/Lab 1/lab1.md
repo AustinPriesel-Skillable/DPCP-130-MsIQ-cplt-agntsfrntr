@@ -20,11 +20,11 @@ In this lab, you'll step into Priya's role and use Planner Agent to monitor the 
 
 1. **Priya Nair - Regional Operations Manager**: Owns the Peak Season Readiness Program and coordinates activities across multiple departments. Uses Planner Agent to monitor project health, identify risks, and prepare executive updates.
 
-1. **Daniel Chen - Director of Store Operations**: Responsible for ensuring every retail location is operational before the holiday launch. Focuses on store readiness, staffing, and equipment deployment.
+2. **Daniel Chen - Director of Store Operations**: Responsible for ensuring every retail location is operational before the holiday launch. Focuses on store readiness, staffing, and equipment deployment.
 
-1. **Sophia Martinez - Supply Chain Manager**: Monitors inventory availability, warehouse readiness, and supplier deliveries. Uses project updates to reduce stock shortages during peak demand.
+3. **Sophia Martinez - Supply Chain Manager**: Monitors inventory availability, warehouse readiness, and supplier deliveries. Uses project updates to reduce stock shortages during peak demand.
 
-1. **Emma Brooks - Marketing Campaign Manager**: Coordinates promotional campaigns and store launch activities. Depends on timely completion of cross-functional tasks before marketing campaigns begin.
+4. **Emma Brooks - Marketing Campaign Manager**: Coordinates promotional campaigns and store launch activities. Depends on timely completion of cross-functional tasks before marketing campaigns begin.
 
 
 ## Lab Objectives
@@ -44,7 +44,7 @@ Creating plans in the planner
 
 1. Open a web browser and navigate to +++https://teams.microsoft.com+++.
 
-1. Enter the following credentials to login to Teams:
+2. Enter the following credentials to login to Teams:
 
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
@@ -56,27 +56,27 @@ Creating plans in the planner
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
 
 
-1. From the left navigation menu, select 3 **dots(…)** and then select **Planner**.
+3. From the left navigation menu, select 3 **dots(…)** and then select **Planner**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
 
-1. Select **+Create a plan**.
+4. Select **+Create a plan**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
 
-1. Select **Create basic plan**.
+5. Select **Create basic plan**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
 
-1. Enter plan name as +++Zava Retail-Peak Season Readiness+++. Then select **Create basic plan**.
+6. Enter plan name as +++Zava Retail-Peak Season Readiness+++. Then select **Create basic plan**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
 
-1. Select **Add to new bucket** to add a new bucket in the recently created plan.
+7. Select **Add to new bucket** to add a new bucket in the recently created plan.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
 
-1. Enter bucket name as +++Store Operations+++ and press **Enter**.
+8. Enter bucket name as +++Store Operations+++ and press **Enter**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
 
@@ -84,14 +84,14 @@ Creating plans in the planner
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
 
-1. Similarly, add the following buckets:
+9. Similarly, add the following buckets:
 
     - +++Workforce Readiness+++
     - +++Marketing & Promotions+++
     - +++Inventory & Supply Chain+++
 
 
-1. Now we add the following new tasks in the Store Operations bucket:
+10. Now we add the following new tasks in the Store Operations bucket:
 
     | Task name | Status | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
@@ -109,9 +109,9 @@ Creating plans in the planner
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image13.png)
 
-1. Similarly, add the tasks in the following buckets:
+11. Similarly, add the tasks in the following buckets:
 
-1. Workforce Readiness:
+12. Workforce Readiness:
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
@@ -119,7 +119,7 @@ Creating plans in the planner
     | +++Complete Seasonal Hiring – Region East+++ | In Progress | Important | In 2 days | Current Username |
     | +++Complete Seasonal Onboarding & Training+++ | Not Started | Medium | In 5 days | Current Username |
 
-1. Marketing & Promotions:
+13. Marketing & Promotions:
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
@@ -127,7 +127,7 @@ Creating plans in the planner
     | +++Launch Email & Social Campaign+++ | In Progress | Important | Tomorrow | Current Username |
     | +++Coordinate In-Store Promo Displays+++ | Not Started | Medium | In 4 days | Current Username |
 
-1. Inventory & Supply Chain
+14. Inventory & Supply Chain
 
     | Task name | Progress | Priority | Due Date (use dates similar to these) | Assign to |
     |-----------|----------|----------|----------------------------------------|-----------|
@@ -154,15 +154,15 @@ Access Microsoft 365 Copilot from your Microsoft 365 environment. This serves as
 
 1. Open new tab and navigate to +++https://m365.cloud.microsoft/chat/+++
 
-1. Select **Agents**->**More agents**. Locate and select **Planner Agent** under Build by Microsoft.
+2. Select **Agents**->**More agents**. Locate and select **Planner Agent** under Build by Microsoft.
+   ![](./media/imagee1.png)
+   ![](./media/imagee2.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image15.png)
-
-1. Select **Open** to open Planner Agent.
+3. Select **Open** to open Planner Agent.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image16.png)
 
-1. Now Planner agent is ready to go.
+4. Now Planner agent is ready to go.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
 
@@ -183,7 +183,7 @@ Regional leadership has requested an overview of the readiness program before th
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
 
-1. Review the AI-generated summary.
+2. Review the AI-generated summary.
 
     Notice how Planner Agent identifies:
     - Completed work
@@ -208,7 +208,7 @@ After understanding the overall project status, Priya wants to know which initia
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
 
-1. Review the response.
+2. Review the response.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image23.png)
 
@@ -223,7 +223,7 @@ Before discussing remaining work, Priya also wants to recognize milestones that 
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
 
-1. Review the completed tasks.
+3. Review the completed tasks.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image25.png)
 
@@ -242,13 +242,13 @@ With dozens of active tasks across multiple departments, it isn't always obvious
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image27.png)
 
-1. Enter the following prompt and click the Send button:
+2. Enter the following prompt and click the Send button:
 
     `Analyze my Planner plan "Zava Retail – Peak Season Readiness" and recommend the top priorities for this week based on due dates, priorities, and task status.`
   
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
 
-1. Review Planner Agent's recommendations.
+3. Review Planner Agent's recommendations.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image29.png)
 
@@ -286,7 +286,7 @@ After reviewing priorities and risks, Priya needs to determine whether the organ
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image36.png)
 
-1. Review Planner Agent's assessment, including how it weighs the overdue tasks in its judgment.
+2. Review Planner Agent's assessment, including how it weighs the overdue tasks in its judgment.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image37.png)
 
@@ -311,13 +311,13 @@ Before discussing operational decisions, leadership needs a quick overview of th
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image41.png)
 
-1. Enter the following prompt and click the Send button:
+2. Enter the following prompt and click the Send button:
 
     `Review my Planner plan "Zava Retail – Peak Season Readiness" and summarize the current project status, including completed work, tasks in progress, remaining work, and any overdue activities.`
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image42.png)
 
-1. Review the generated summary and verify that it accurately reflects the Planner plan by highlighting completed activities, ongoing work, remaining tasks, and overdue items. Notice how Planner Agent provides a concise project overview without requiring a manual review of every task.
+3. Review the generated summary and verify that it accurately reflects the Planner plan by highlighting completed activities, ongoing work, remaining tasks, and overdue items. Notice how Planner Agent provides a concise project overview without requiring a manual review of every task.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image43.png)
 
@@ -336,7 +336,7 @@ Leadership now wants to understand what actions should be taken to keep the proj
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image46.png)
 
-1. Review Planner Agent's recommendations and verify that they focus on overdue tasks, high-priority activities, and upcoming deadlines.
+2. Review Planner Agent's recommendations and verify that they focus on overdue tasks, high-priority activities, and upcoming deadlines.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image47.png)
 
@@ -365,7 +365,7 @@ To conclude the weekly readiness review, Priya needs a report she can share with
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image51.png)
 
-1. Review the generated leadership update and confirm that it summarizes the current state of the Planner plan in a clear, business-focused format suitable for sharing during an operational review meeting.
+2. Review the generated leadership update and confirm that it summarizes the current state of the Planner plan in a clear, business-focused format suitable for sharing during an operational review meeting.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image52.png)
 
