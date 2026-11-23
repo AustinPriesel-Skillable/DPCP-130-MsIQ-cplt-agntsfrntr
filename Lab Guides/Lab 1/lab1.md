@@ -4,7 +4,7 @@
 
 ## Lab Overview
 
-In this lab, you'll use Planner Agent in Microsoft 365 Copilot to review project plans, identify risks, generate executive summaries, assign follow-up work, and coordinate peak season readiness across multiple teams.
+In this lab, you'll use Planner Agent in Microsoft Copilot to review project plans, identify risks, generate executive summaries, assign follow-up work, and coordinate peak season readiness across multiple teams.
 
 ## Scenario
 
@@ -12,7 +12,7 @@ In this lab, you'll use Planner Agent in Microsoft 365 Copilot to review project
 
 To prepare for the upcoming holiday shopping season, Zava Retail has launched the **Peak Season Readiness Program**. The initiative brings together Store Operations, Workforce Readiness, Marketing, and Inventory teams to coordinate activities, track progress, and ensure every store is ready before the busiest shopping period begins.
 
-**Priya Nair**, the Regional Operations Manager, is responsible for overseeing the program and ensuring every workstream stays on schedule. Instead of manually reviewing hundreds of tasks across multiple buckets, Priya uses **Microsoft 365 Copilot Planner Agent** to quickly assess project health, identify overdue or high-priority work, summarize progress, and recommend next steps.
+**Priya Nair**, the Regional Operations Manager, is responsible for overseeing the program and ensuring every workstream stays on schedule. Instead of manually reviewing hundreds of tasks across multiple buckets, Priya uses **Microsoft Copilot Planner Agent** to quickly assess project health, identify overdue or high-priority work, summarize progress, and recommend next steps.
 
 In this lab, you'll step into Priya's role and use Planner Agent to monitor the Peak Season Readiness Program, uncover potential risks, and make informed operational decisions that help ensure every store is ready for the busiest shopping season of the year.
 
@@ -154,7 +154,7 @@ Access Microsoft 365 Copilot from your Microsoft 365 environment. This serves as
 
 1. Open new tab and navigate to +++https://m365.cloud.microsoft/chat/+++
 
-1. Select **More agents**. Locate and select **Planner Agent** under Build by Microsoft.
+1. Select **Agents**->**More agents**. Locate and select **Planner Agent** under Build by Microsoft.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image15.png)
 
@@ -267,7 +267,7 @@ Priya now wants to understand which activities could delay the Peak Season Readi
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image32.png)
 
-1. Review the identified risks. Notice how Planner Agent surfaces the overdue, high-priority tasks — Deep-Clean & Signage Refresh – Region West and Validate Store-Level Inventory Counts — and explains why they pose a risk to the timeline.
+2. Review the identified risks. Notice how Planner Agent surfaces overdue, high-priority tasks and explains why they risk delaying the timeline.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image33.png)
 
